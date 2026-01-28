@@ -40,8 +40,8 @@ export default function AboutPage() {
                     <h2 className="text-3xl font-heading font-bold mb-16 text-center">Meet the Minds</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {team.map((member) => (
-                            <div key={member.id} className="group relative">
-                                <div className="aspect-square relative overflow-hidden rounded-xl mb-4 bg-muted">
+                            <div key={member.id} className="group relative glass-card p-4 rounded-2xl transition-all duration-300 hover:bg-white/5">
+                                <div className="aspect-square relative overflow-hidden rounded-xl mb-4 bg-muted/50">
                                     <Image src={member.image} alt={member.name} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
                                 </div>
                                 <h3 className="text-xl font-bold font-heading">{member.name}</h3>

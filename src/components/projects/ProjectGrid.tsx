@@ -36,7 +36,7 @@ export function ProjectGrid() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-md bg-muted"
+                            className="group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-3xl glass-card"
                             onMouseEnter={() => setHoveredId(project.id)}
                             onMouseLeave={() => setHoveredId(null)}
                         >

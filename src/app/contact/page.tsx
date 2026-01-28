@@ -74,7 +74,7 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    <div className="bg-muted p-8 rounded-3xl border border-white/5">
+                    <div className="glass-card p-8 rounded-3xl">
                         <h3 className="text-2xl font-bold mb-6">Project Inquiry</h3>
 
                         {isSuccess ? (

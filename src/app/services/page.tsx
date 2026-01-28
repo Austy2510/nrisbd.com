@@ -17,7 +17,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-32">
-                    <div className="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-colors group">
+                    <div className="glass-card p-8 rounded-2xl hover:bg-white/5 transition-colors group">
                         <h3 className="text-2xl font-bold font-heading mb-4 text-blue-500">Structural Audits & Retrofitting</h3>
                         <p className="text-muted-foreground mb-6">
                             Ensuring the longevity of built assets through rigorous NDT testing, code compliance verification, and performance-based retrofitting strategies.
@@ -28,7 +28,7 @@ export default function ServicesPage() {
                             <li>• Seismic Vulnerability Analysis</li>
                         </ul>
                     </div>
-                    <div className="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-colors group">
+                    <div className="glass-card p-8 rounded-2xl hover:bg-white/5 transition-colors group">
                         <h3 className="text-2xl font-bold font-heading mb-4 text-orange-500">BIM & Digital Twins</h3>
                         <p className="text-muted-foreground mb-6">
                             Beyond 3D modeling. We create intelligent, data-rich digital replicas of physical assets to optimize construction, operation, and maintenance.
