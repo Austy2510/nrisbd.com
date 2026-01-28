@@ -13,24 +13,12 @@ const navLinks = [
 ];
 
 export function Navbar() {
-    const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 50);
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
 
     return (
         <nav
             className={cn(
-                "fixed top-0 left-0 w-full z-50 transition-all duration-500 border-b border-transparent",
-                scrolled
-                    ? "glass-card py-4"
-                    : "bg-transparent py-6"
+                "fixed top-0 left-0 w-full z-50 transition-all duration-500 py-4 glass-card border-b border-white/10"
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
