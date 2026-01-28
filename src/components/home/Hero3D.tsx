@@ -78,6 +78,9 @@ export function Hero3D() {
                 </Float>
             </Canvas>
 
+            {/* Gradient Overlay for Text Readability */}
+            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent z-0 pointer-events-none" />
+
             {/* Overlay Content */}
             <div className="absolute inset-0 flex flex-col justify-center items-start pointer-events-none z-10 px-6 md:px-24">
                 <div className="overflow-hidden">
