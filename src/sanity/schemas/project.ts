@@ -50,14 +50,14 @@ export const projectType = defineType({
             name: 'stats',
             type: 'array',
             of: [
-                defineType({
-                    name: 'stat',
+                {
                     type: 'object',
+                    name: 'stat',
                     fields: [
-                        defineField({ name: 'label', type: 'string' }),
-                        defineField({ name: 'value', type: 'string' }),
+                        { name: 'label', type: 'string' },
+                        { name: 'value', type: 'string' },
                     ],
-                }),
+                },
             ],
         }),
     ],
