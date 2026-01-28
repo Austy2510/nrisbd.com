@@ -8,8 +8,8 @@ const FRAME_COUNT = 80;
 export function HeroSequence() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
-    const [images, setImages] = useState<HTMLImageElement[]>([]);
-    const [isLoaded, setIsLoaded] = useState(false);
+    const imagesRef = useRef<HTMLImageElement[]>([]);
+    const [isReady, setIsReady] = useState(false);
 
     // Track scroll progress of the container
     const { scrollYProgress } = useScroll({
@@ -20,72 +20,75 @@ export function HeroSequence() {
     // Map scroll progress (0 to 1) to frame index (0 to 79)
     const frameIndex = useTransform(scrollYProgress, [0, 1], [0, FRAME_COUNT - 1]);
 
-    // Preload images
+    const renderFrame = (index: number) => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return;
+
+        const img = imagesRef.current[index];
+
+        if (img && img.complete) {
+            // "Object-cover" logic for canvas
+            const canvasRatio = canvas.width / canvas.height;
+            const imgRatio = img.width / img.height;
+
+            let drawWidth = canvas.width;
+            let drawHeight = canvas.height;
+            let offsetX = 0;
+            let offsetY = 0;
+
+            if (imgRatio > canvasRatio) {
+                drawHeight = canvas.height;
+                drawWidth = canvas.height * imgRatio;
+                offsetX = (canvas.width - drawWidth) / 2;
+            } else {
+                drawWidth = canvas.width;
+                drawHeight = canvas.width / imgRatio;
+                offsetY = (canvas.height - drawHeight) / 2;
+            }
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
+        }
+    };
+
+    // Preload images - Strategy: Load frame 0 ASAP, then rest in background
     useEffect(() => {
-        const loadImages = async () => {
-            const loadedImages: HTMLImageElement[] = [];
-            for (let i = 0; i < FRAME_COUNT; i++) {
+        // Load first frame immediately
+        const img0 = new Image();
+        img0.src = "/hero-sequence/frame_000.jpg";
+        img0.onload = () => {
+            imagesRef.current[0] = img0;
+            renderFrame(0);
+            setIsReady(true); // Show UI immediately after Frame 0
+
+            // Background load the rest in a non-blocking loop
+            for (let i = 1; i < FRAME_COUNT; i++) {
                 const img = new Image();
                 img.src = `/hero-sequence/frame_${i.toString().padStart(3, "0")}.jpg`;
-                await new Promise((resolve) => {
-                    img.onload = resolve;
-                    // Handle error just in case to avoid hanging
-                    img.onerror = resolve;
-                });
-                loadedImages.push(img);
+                img.onload = () => {
+                    imagesRef.current[i] = img;
+                };
             }
-            setImages(loadedImages);
-            setIsLoaded(true);
         };
-
-        loadImages();
     }, []);
 
     // Render loop
     useEffect(() => {
-        if (!isLoaded || images.length === 0) return;
+        if (!isReady) return;
 
         const render = () => {
-            const canvas = canvasRef.current;
-            if (!canvas) return;
-
-            const ctx = canvas.getContext("2d");
-            if (!ctx) return;
-
             // Get current frame index from the motion value
             const currentFrame = Math.round(frameIndex.get());
-            const img = images[currentFrame];
-
-            if (img) {
-                // "Object-cover" logic for canvas
-                const canvasRatio = canvas.width / canvas.height;
-                const imgRatio = img.width / img.height;
-
-                let drawWidth = canvas.width;
-                let drawHeight = canvas.height;
-                let offsetX = 0;
-                let offsetY = 0;
-
-                if (imgRatio > canvasRatio) {
-                    drawHeight = canvas.height;
-                    drawWidth = canvas.height * imgRatio;
-                    offsetX = (canvas.width - drawWidth) / 2;
-                } else {
-                    drawWidth = canvas.width;
-                    drawHeight = canvas.width / imgRatio;
-                    offsetY = (canvas.height - drawHeight) / 2;
-                }
-
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
-            }
-
+            renderFrame(currentFrame);
             requestAnimationFrame(render);
         };
 
         const animationId = requestAnimationFrame(render);
         return () => cancelAnimationFrame(animationId);
-    }, [isLoaded, images, frameIndex]);
+    }, [isReady, frameIndex]);
 
     // Handle resize
     useEffect(() => {
@@ -93,6 +96,9 @@ export function HeroSequence() {
             if (canvasRef.current) {
                 canvasRef.current.width = window.innerWidth;
                 canvasRef.current.height = window.innerHeight;
+                // Redraw current frame on resize
+                const currentFrame = Math.round(frameIndex.get() || 0);
+                renderFrame(currentFrame);
             }
         };
 
@@ -100,7 +106,7 @@ export function HeroSequence() {
         handleResize(); // Initial size
 
         return () => window.removeEventListener("resize", handleResize);
-    }, []);
+    }, [isReady]);
 
     return (
         <div ref={containerRef} className="h-[300vh] relative">
@@ -113,15 +119,11 @@ export function HeroSequence() {
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent z-10 pointer-events-none" />
 
-                {/* Loading State */}
-                {!isLoaded && (
-                    <div className="absolute inset-0 flex items-center justify-center z-20 bg-background text-white">
-                        <p className="animate-pulse">Loading Experience...</p>
-                    </div>
-                )}
-
                 {/* Static Text Overlay - Fades out as you scroll deep */}
                 <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: isReady ? 1 : 0 }}
+                    transition={{ duration: 0.5 }}
                     style={{ opacity: useTransform(scrollYProgress, [0, 0.3], [1, 0]) }}
                     className="absolute inset-0 flex flex-col justify-center items-start pointer-events-none z-20 px-6 md:px-24"
                 >
@@ -148,6 +150,8 @@ export function HeroSequence() {
 
                 {/* Scroll indicator - Fades out quickly */}
                 <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: isReady ? 1 : 0 }}
                     style={{ opacity: useTransform(scrollYProgress, [0, 0.1], [1, 0]) }}
                     className="absolute bottom-10 left-10 animate-bounce text-white/20 hidden md:block z-20"
                 >
