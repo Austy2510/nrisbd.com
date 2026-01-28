@@ -1,15 +1,41 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import projects from "@/data/projects.json";
+import staticProjects from "@/data/projects.json";
 import { cn } from "@/lib/utils";
 // Using react-icons/fi
 import { FiArrowUpRight, FiLayers, FiMapPin } from "react-icons/fi";
+import { client } from "@/sanity/lib/client";
+import { projectsQuery } from "@/sanity/lib/queries";
+
+interface Project {
+    id: string;
+    title: string;
+    category: string;
+    location: string;
+    image: string;
+    stats: { label: string; value: string }[];
+}
 
 export function ProjectGrid() {
     const [hoveredId, setHoveredId] = useState<string | null>(null);
+    const [projects, setProjects] = useState<Project[]>(staticProjects as Project[]);
+
+    useEffect(() => {
+        const fetchProjects = async () => {
+            try {
+                const data = await client.fetch(projectsQuery);
+                if (data && data.length > 0) {
+                    setProjects(data);
+                }
+            } catch (error) {
+                console.warn("Sanity fetch failed or returned no data, using local fallback.", error);
+            }
+        };
+        fetchProjects();
+    }, []);
 
     return (
         <section className="py-24 bg-background">
