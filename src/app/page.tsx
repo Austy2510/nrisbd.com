@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { Hero3D } from "@/components/home/Hero3D";
+import { HeroSequence } from "@/components/home/HeroSequence";
 import { ProjectGrid } from "@/components/projects/ProjectGrid";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <Hero3D />
+      <HeroSequence />
 
       {/* Content Placeholders (to allow scrolling) */}
       <section className="bg-background py-32 px-6">
