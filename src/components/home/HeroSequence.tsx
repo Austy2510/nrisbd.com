@@ -5,6 +5,25 @@ import { useScroll, useTransform, motion } from "framer-motion";
 
 const FRAME_COUNT = 80;
 
+function Typewriter({ text }: { text: string }) {
+    const [displayedText, setDisplayedText] = useState("");
+
+    useEffect(() => {
+        let i = 0;
+        const timer = setInterval(() => {
+            if (i < text.length) {
+                setDisplayedText(text.slice(0, i + 1));
+                i++;
+            } else {
+                clearInterval(timer);
+            }
+        }, 50); // Typing speed
+        return () => clearInterval(timer);
+    }, [text]);
+
+    return <span>{displayedText}<span className="animate-pulse">_</span></span>;
+}
+
 export function HeroSequence() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
@@ -110,14 +129,21 @@ export function HeroSequence() {
 
     return (
         <div ref={containerRef} className="h-[300vh] relative">
-            <div className="sticky top-0 h-screen w-full overflow-hidden bg-black">
+            <div className="sticky top-0 h-[100dvh] w-full overflow-hidden bg-black">
+                {/* Fallback Image - Visible immediately, ensures mobile never sees white screen */}
+                <img
+                    src="/hero-sequence/frame_000.jpg"
+                    alt="Hero Background"
+                    className="absolute inset-0 w-full h-full object-cover z-0"
+                />
+
                 <canvas
                     ref={canvasRef}
-                    className="w-full h-full object-cover"
+                    className="absolute inset-0 w-full h-full object-cover z-10 pointer-events-none"
                 />
 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent z-10 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent z-20 pointer-events-none" />
 
                 {/* Static Text Overlay - Fades out as you scroll deep */}
                 <motion.div
@@ -125,17 +151,20 @@ export function HeroSequence() {
                     animate={{ opacity: isReady ? 1 : 0 }}
                     transition={{ duration: 0.5 }}
                     style={{ opacity: useTransform(scrollYProgress, [0, 0.3], [1, 0]) }}
-                    className="absolute inset-0 flex flex-col justify-center items-start pointer-events-none z-20 px-6 md:px-24"
+                    className="absolute inset-0 flex flex-col justify-center items-start pointer-events-none z-30 px-6 md:px-24"
                 >
                     <div className="overflow-hidden">
                         <h1 className="text-7xl md:text-9xl font-black font-heading tracking-tighter mb-2 text-white mix-blend-difference animate-fade-up delay-[200ms]">
                             NRIS BD
                         </h1>
                     </div>
-                    <div className="overflow-hidden">
-                        <h2 className="text-4xl md:text-6xl font-thin font-heading text-white/60 tracking-tight mb-8 animate-fade-up delay-[400ms]">
-                            Engineering <span className="text-blue-500 font-bold">Resilience</span>.
-                        </h2>
+                    {/* Fixed Height Container for Typewriter to prevent layout shift */}
+                    <div className="overflow-hidden h-32 md:h-48 flex items-center">
+                        {isReady && (
+                            <h2 className="text-4xl md:text-6xl font-thin font-heading text-white/60 tracking-tight mb-8">
+                                Engineering <span className="text-blue-500 font-bold"><Typewriter text="Resilience." /></span>
+                            </h2>
+                        )}
                     </div>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-w-xl font-light mb-10 leading-relaxed animate-fade-up delay-[600ms]">
