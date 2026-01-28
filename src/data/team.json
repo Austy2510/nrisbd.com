@@ -1,0 +1,43 @@
+[
+    {
+        "id": "t1",
+        "name": "Engr. Tabassum Rahman",
+        "role": "Principal Engineer & CEO",
+        "credentials": [
+            "M.Sc. Structural Engineering (BUET)",
+            "FIEB",
+            "PEng"
+        ],
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=TR"
+    },
+    {
+        "id": "t2",
+        "name": "Engr. Saiful Islam",
+        "role": "Lead Structural Engineer",
+        "credentials": [
+            "B.Sc. Civil Engineering (BUET)",
+            "ETABS Certified"
+        ],
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=SI"
+    },
+    {
+        "id": "t3",
+        "name": "Ar. Sarah Ahmed",
+        "role": "BIM Specialist",
+        "credentials": [
+            "B.Arch (BRACU)",
+            "Autodesk Revit Pro"
+        ],
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=SA"
+    },
+    {
+        "id": "t4",
+        "name": "Dr. Kamal Hossain",
+        "role": "Geotechnical Consultant",
+        "credentials": [
+            "PhD (Japan)",
+            "Soil Dynamics Expert"
+        ],
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=KH"
+    }
+]

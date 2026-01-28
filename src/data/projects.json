@@ -1,0 +1,116 @@
+[
+    {
+        "id": "p1",
+        "title": "Dhaka Metro Line 6 Audit",
+        "category": "Infrastructure",
+        "location": "Mirpur - Motijheel",
+        "year": "2024",
+        "stats": [
+            {
+                "label": "Concrete Volume",
+                "value": "120,000 m³"
+            },
+            {
+                "label": "Lives Impacted",
+                "value": "5M+"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1574974671999-563b77259275?auto=format&fit=crop&q=80&w=800",
+        "description": "Comprehensive structural integrity assessment using advanced non-destructive testing (NDT) and digital twin modeling."
+    },
+    {
+        "id": "p2",
+        "title": "Bashundhara Sky Tower",
+        "category": "High-Rise",
+        "location": "Bashundhara R/A",
+        "year": "2025",
+        "stats": [
+            {
+                "label": "Height",
+                "value": "180m"
+            },
+            {
+                "label": "Wind Load",
+                "value": "240 km/h"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
+        "description": "A 40-story commercial icon designed with wind-tunnel validated aerodynamics and LEED Platinum sustainability standards."
+    },
+    {
+        "id": "p3",
+        "title": "Padma Bridge Monitoring",
+        "category": "Infrastructure",
+        "location": "Mawa",
+        "year": "2023",
+        "stats": [
+            {
+                "label": "Sensors",
+                "value": "5,000+"
+            },
+            {
+                "label": "Data Points",
+                "value": "1TB/day"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=800",
+        "description": "Real-time structural health monitoring (SHM) system deployment for Bangladesh's largest infrastructure asset."
+    },
+    {
+        "id": "p4",
+        "title": "Chattogram Logistics Hub",
+        "category": "Industrial",
+        "location": "Chattogram Port",
+        "year": "2024",
+        "stats": [
+            {
+                "label": "Area",
+                "value": "50 Acres"
+            },
+            {
+                "label": "Steel Used",
+                "value": "15,000 Tons"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+        "description": "Optimization of large-span steel structures for automated warehousing and heavy logistics operations."
+    },
+    {
+        "id": "p5",
+        "title": "Green Textile Retrofit",
+        "category": "Industrial",
+        "location": "Gazipur",
+        "year": "2023",
+        "stats": [
+            {
+                "label": "Energy Savings",
+                "value": "40%"
+            },
+            {
+                "label": "Safety Score",
+                "value": "99.9%"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1565514020176-dbf223849318?auto=format&fit=crop&q=80&w=800",
+        "description": "Structural strengthening and fire-safety retrofitting for a Tier-1 garment factory to meet ACCORD/ALLIANCE standards."
+    },
+    {
+        "id": "p6",
+        "title": "Gulshan Lakefront Residence",
+        "category": "Residential",
+        "location": "Gulshan 2",
+        "year": "2025",
+        "stats": [
+            {
+                "label": "Luxury Units",
+                "value": "24"
+            },
+            {
+                "label": "Cantilever",
+                "value": "5m"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+        "description": "Boutique luxury residence featuring complex cantilevered terraces and exposed concrete aesthetics."
+    }
+]
