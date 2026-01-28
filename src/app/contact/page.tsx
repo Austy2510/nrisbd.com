@@ -45,21 +45,21 @@ export default function ContactPage() {
                         <form className="space-y-6">
                             <div className="grid grid-cols-2 gap-6">
                                 <div>
-                                    <label className="block text-sm font-medium mb-2 text-muted-foreground">First Name</label>
-                                    <input type="text" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 outline-none transition-colors" />
+                                    <label htmlFor="fname" className="block text-sm font-medium mb-2 text-muted-foreground">First Name</label>
+                                    <input id="fname" type="text" placeholder="John" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all duration-300" />
                                 </div>
                                 <div>
-                                    <label className="block text-sm font-medium mb-2 text-muted-foreground">Last Name</label>
-                                    <input type="text" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 outline-none transition-colors" />
+                                    <label htmlFor="lname" className="block text-sm font-medium mb-2 text-muted-foreground">Last Name</label>
+                                    <input id="lname" type="text" placeholder="Doe" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all duration-300" />
                                 </div>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-2 text-muted-foreground">Email Address</label>
-                                <input type="email" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 outline-none transition-colors" />
+                                <label htmlFor="email" className="block text-sm font-medium mb-2 text-muted-foreground">Email Address</label>
+                                <input id="email" type="email" placeholder="john@company.com" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all duration-300" />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-2 text-muted-foreground">Project Type</label>
-                                <select className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 outline-none transition-colors appearance-none text-muted-foreground">
+                                <label htmlFor="type" className="block text-sm font-medium mb-2 text-muted-foreground">Project Type</label>
+                                <select id="type" className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all duration-300 appearance-none text-foreground">
                                     <option>Structural Audit</option>
                                     <option>High-Rise Design</option>
                                     <option>Factory Retrofitting</option>
@@ -67,10 +67,10 @@ export default function ContactPage() {
                                 </select>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-2 text-muted-foreground">Message</label>
-                                <textarea rows={4} className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 outline-none transition-colors" placeholder="Tell us about your project scale and timeline..."></textarea>
+                                <label htmlFor="msg" className="block text-sm font-medium mb-2 text-muted-foreground">Message</label>
+                                <textarea id="msg" rows={4} className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all duration-300" placeholder="Tell us about your project scale and timeline..."></textarea>
                             </div>
-                            <button className="w-full py-4 bg-white text-black font-bold uppercase tracking-widest rounded-lg hover:bg-gray-200 transition-colors">
+                            <button className="w-full py-4 bg-white text-black font-bold uppercase tracking-widest rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                                 Send Inquiry
                             </button>
                         </form>

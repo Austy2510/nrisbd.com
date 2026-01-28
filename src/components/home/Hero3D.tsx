@@ -79,20 +79,37 @@ export function Hero3D() {
             </Canvas>
 
             {/* Overlay Content */}
-            <div className="absolute inset-0 flex flex-col justify-center items-center pointer-events-none z-10 text-center px-4">
-                <h1 className="text-6xl md:text-8xl font-black font-heading tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50">
-                    BUILDING <br /> TOMORROW.
-                </h1>
-                <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl font-light mb-10">
-                    Redefining infrastructure with <span className="text-blue-500 font-bold">Digital Twins</span> & <span className="text-orange-500 font-bold">Algorithmic Design</span>.
+            <div className="absolute inset-0 flex flex-col justify-center items-start pointer-events-none z-10 px-6 md:px-24">
+                <div className="overflow-hidden">
+                    <h1 className="text-7xl md:text-9xl font-black font-heading tracking-tighter mb-2 text-white mix-blend-difference opacity-0 animate-fade-up delay-[200ms]">
+                        NRIS BD
+                    </h1>
+                </div>
+                <div className="overflow-hidden">
+                    <h2 className="text-4xl md:text-6xl font-thin font-heading text-white/60 tracking-tight mb-8 opacity-0 animate-fade-up delay-[400ms]">
+                        Engineering <span className="text-blue-500 font-bold">Resilience</span>.
+                    </h2>
+                </div>
+
+                <p className="text-lg md:text-xl text-muted-foreground max-w-xl font-light mb-10 leading-relaxed opacity-0 animate-fade-up delay-[600ms]">
+                    Bridging the gap between physics and code. We deploy <span className="text-white font-medium">Digital Twins</span> to de-risk Bangladesh's most complex infrastructure.
                 </p>
-                <button className="pointer-events-auto px-8 py-4 bg-white text-black text-sm font-bold uppercase tracking-widest hover:bg-white/90 transition-all rounded-full">
-                    Explore Projects
+
+                <button className="pointer-events-auto px-10 py-4 bg-white text-black text-sm font-bold uppercase tracking-widest hover:bg-blue-600 hover:text-white transition-all duration-300 rounded-full opacity-0 animate-fade-up delay-[800ms]">
+                    Explore Our Work
                 </button>
             </div>
 
+            {/* Tech Data Ticker */}
+            <div className="absolute bottom-10 right-10 hidden md:flex flex-col text-right font-mono text-xs text-white/30 space-y-2">
+                <p>LAT: 23.8103° N | LNG: 90.4125° E</p>
+                <p>SYSTEM STATUS: ONLINE</p>
+                <p>MODEL: IFC.js CORE V2.1</p>
+            </div>
+
             {/* Scroll indicator */}
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/20">
+            <div className="absolute bottom-10 left-10 animate-bounce text-white/20 hidden md:block">
+                <div className="text-xs font-mono mb-2 uppercase tracking-widest -rotate-90 origin-bottom-left relative left-3">Scroll</div>
                 <div className="w-[1px] h-20 bg-gradient-to-b from-transparent via-white to-transparent" />
             </div>
         </div>
