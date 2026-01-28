@@ -15,8 +15,8 @@ interface Project {
     title: string;
     category: string;
     location: string;
-    image: string;
-    stats: { label: string; value: string }[];
+    image?: string;
+    stats?: { label: string; value: string }[];
 }
 
 export function ProjectGrid() {
@@ -67,12 +67,18 @@ export function ProjectGrid() {
                             onMouseLeave={() => setHoveredId(null)}
                         >
                             {/* Background Image */}
-                            <Image
-                                src={project.image}
-                                alt={project.title}
-                                fill
-                                className="object-cover transition-transform duration-700 group-hover:scale-110 group-hover:filter group-hover:brightness-50"
-                            />
+                            {project.image ? (
+                                <Image
+                                    src={project.image}
+                                    alt={project.title}
+                                    fill
+                                    className="object-cover transition-transform duration-700 group-hover:scale-110 group-hover:filter group-hover:brightness-50"
+                                />
+                            ) : (
+                                <div className="absolute inset-0 bg-white/5 flex items-center justify-center">
+                                    <FiLayers size={40} className="text-white/20" />
+                                </div>
+                            )}
 
                             {/* Wireframe Overlay Effect (Simulated) */}
                             <div
@@ -102,14 +108,16 @@ export function ProjectGrid() {
                                     </div>
 
                                     {/* Stats */}
-                                    <div className="grid grid-cols-2 gap-4 border-t border-white/20 pt-4 translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-150">
-                                        {project.stats.map((stat, i) => (
-                                            <div key={i}>
-                                                <div className="text-xs text-muted-foreground mb-1">{stat.label}</div>
-                                                <div className="text-lg font-bold font-mono">{stat.value}</div>
-                                            </div>
-                                        ))}
-                                    </div>
+                                    {project.stats && project.stats.length > 0 && (
+                                        <div className="grid grid-cols-2 gap-4 border-t border-white/20 pt-4 translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-150">
+                                            {project.stats.map((stat, i) => (
+                                                <div key={i}>
+                                                    <div className="text-xs text-muted-foreground mb-1">{stat.label}</div>
+                                                    <div className="text-lg font-bold font-mono">{stat.value}</div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </motion.div>
