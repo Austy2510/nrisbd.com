@@ -153,33 +153,27 @@ export function HeroSequence() {
                     style={{ opacity: useTransform(scrollYProgress, [0, 0.3], [1, 0]) }}
                     className="absolute inset-0 flex flex-col justify-center items-start pointer-events-none z-30 px-6 md:px-24"
                 >
-                    {/* Liquid Glass Card Container */}
-                    <div className="relative p-10 md:p-16 rounded-3xl overflow-hidden border border-white/10 shadow-2xl backdrop-blur-md bg-white/5">
-                        {/* Shimmer/Liquid Effect */}
-                        <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent translate-x-[-100%] animate-[shimmer_3s_infinite]" />
-
-                        <div className="overflow-hidden">
-                            <h1 className="text-7xl md:text-9xl font-black font-heading tracking-tighter mb-2 text-white mix-blend-overlay opacity-90 animate-fade-up delay-[200ms]">
-                                NRIS BD
-                            </h1>
-                        </div>
-                        {/* Fixed Height Container for Typewriter to prevent layout shift */}
-                        <div className="overflow-hidden h-32 md:h-48 flex items-center relative z-10">
-                            {isReady && (
-                                <h2 className="text-4xl md:text-6xl font-thin font-heading text-white tracking-tight mb-8 drop-shadow-lg">
-                                    Engineering <span className="text-blue-400 font-bold"><Typewriter text="Resilience." /></span>
-                                </h2>
-                            )}
-                        </div>
-
-                        <p className="text-lg md:text-xl text-gray-200 max-w-xl font-light mb-10 leading-relaxed animate-fade-up delay-[600ms] relative z-10">
-                            Bridging the gap between physics and code. We deploy <span className="text-white font-medium">Digital Twins</span> to de-risk Bangladesh's most complex infrastructure.
-                        </p>
-
-                        <button className="pointer-events-auto relative z-10 px-10 py-4 bg-white/10 text-white border border-white/20 text-sm font-bold uppercase tracking-widest hover:bg-blue-600 hover:border-transparent transition-all duration-300 rounded-full animate-fade-up delay-[800ms] backdrop-blur-md">
-                            Explore Our Work
-                        </button>
+                    <div className="overflow-hidden">
+                        <h1 className="text-7xl md:text-9xl font-black font-heading tracking-tighter mb-2 text-white mix-blend-difference animate-fade-up delay-[200ms]">
+                            NRIS BD
+                        </h1>
                     </div>
+                    {/* Fixed Height Container for Typewriter to prevent layout shift */}
+                    <div className="overflow-hidden h-32 md:h-48 flex items-center">
+                        {isReady && (
+                            <h2 className="text-4xl md:text-6xl font-thin font-heading text-white/60 tracking-tight mb-8 animate-fade-up delay-[400ms]">
+                                Engineering <span className="text-blue-500 font-bold"><Typewriter text="Resilience." /></span>
+                            </h2>
+                        )}
+                    </div>
+
+                    <p className="text-lg md:text-xl text-muted-foreground max-w-xl font-light mb-10 leading-relaxed animate-fade-up delay-[600ms]">
+                        Bridging the gap between physics and code. We deploy <span className="text-white font-medium">Digital Twins</span> to de-risk Bangladesh's most complex infrastructure.
+                    </p>
+
+                    <button className="pointer-events-auto relative z-10 px-10 py-4 bg-white/10 text-white border border-white/20 text-sm font-bold uppercase tracking-widest hover:bg-blue-600 hover:border-transparent transition-all duration-300 rounded-full animate-fade-up delay-[800ms] backdrop-blur-md">
+                        Explore Our Work
+                    </button>
                 </motion.div>
 
 
