@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { FiArrowUpRight, FiLayers, FiMapPin } from "react-icons/fi";
 import { client } from "@/sanity/lib/client";
 import { projectsQuery } from "@/sanity/lib/queries";
+import Link from "next/link";
 
 interface Project {
     id: string;
@@ -55,14 +56,13 @@ export function ProjectGrid() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {projects.map((project, index) => (
+                    <Link key={project.id} href={`/projects/${project.id}`}>
                         <motion.div
-                            key={project.id}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-3xl glass-card"
+                            className="group relative aspect-[4/5] overflow-hidden rounded-3xl glass-card h-full"
                             onMouseEnter={() => setHoveredId(project.id)}
                             onMouseLeave={() => setHoveredId(null)}
                         >
@@ -126,7 +126,7 @@ export function ProjectGrid() {
                                 </div>
                             </div>
                         </motion.div>
-                    ))}
+                    </Link>
                 </div>
             </div>
         </section>
