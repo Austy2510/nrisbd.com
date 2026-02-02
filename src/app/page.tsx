@@ -4,6 +4,7 @@ import { HeroSequence } from "@/components/home/HeroSequence";
 import { ProjectGrid } from "@/components/projects/ProjectGrid";
 import { FeasibilityCalculator } from "@/components/tools/FeasibilityCalculator";
 import { BimViewer } from "@/components/projects/BimViewer";
+import { FAQSection } from "@/components/home/FAQSection";
 import { FiHexagon, FiZap, FiDatabase } from "react-icons/fi";
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
               <div className="space-y-8 font-light text-muted-foreground text-xl leading-relaxed">
                 <p>
                   As Bangladesh enters a new era of infrastructure complexity, traditional engineering cycles are no longer sufficient.
-                  NRIS BD bridges the gap between physics and code.
+                  NR Intellectual Solution bridges the gap between physics and code.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
                   <div className="space-y-4">
@@ -58,6 +59,8 @@ export default function Home() {
 
       {/* Selected Works Portfolio */}
       <ProjectGrid />
+
+      <FAQSection />
 
       <Footer />
     </main>

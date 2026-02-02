@@ -56,6 +56,31 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} antialiased bg-background text-foreground`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "GovernmentService",
+              "name": "NR Intellectual Solution",
+              "alternateName": "NRIS",
+              "url": "https://nrisbd.com",
+              "logo": "https://nrisbd.com/assets/brand/logo.jpeg",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+880-XXXX-XXXXXX",
+                "contactType": "customer service",
+                "areaServed": "BD",
+                "availableLanguage": ["en", "bn"]
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/nrisbd",
+                "https://twitter.com/nrisbd"
+              ],
+              "description": "Advanced technical consultancy specialized in Structural Audits, BIM, and Digital Twins in Bangladesh."
+            })
+          }}
+        />
         {children}
       </body>
     </html>

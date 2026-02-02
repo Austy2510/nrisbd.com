@@ -28,5 +28,35 @@
         "excerpt": "How parametric modeling helps developers make informed decisions about aging industrial facilities in the Manikganj and Gazipur clusters.",
         "content": "Full article content placeholder...",
         "image": "https://images.unsplash.com/photo-1503387762-592be5a52680?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "i4",
+        "title": "Seismic Retrofitting Strategies for Pre-Code Structures",
+        "category": "Structural Engineering",
+        "date": "2026-02-01",
+        "author": "Dr. Subrata Bose",
+        "excerpt": "A technical guide on upgrading older mid-rise buildings in Dhaka to meet modern earthquake resistance standards using CFRP and steel jacketing.",
+        "content": "Full article content placeholder...",
+        "image": "https://images.unsplash.com/photo-1590486803833-2c72309193fe?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "i5",
+        "title": "Parametric Design: Optimizing High-Rise Wind Loads",
+        "category": "Computational Design",
+        "date": "2026-01-20",
+        "author": "Engr. Afzal Ahmed",
+        "excerpt": "How algorithmic optimizations allowed us to reduce steel consumption by 15% while improving aerodynamic performance in a 40-story proposal.",
+        "content": "Full article content placeholder...",
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "i6",
+        "title": "The Role of NDT in Post-Fire Structural Integrity Audits",
+        "category": "Forensic Engineering",
+        "date": "2026-01-05",
+        "author": "Dr. Subrata Bose",
+        "excerpt": "Using Ultrasonic Pulse Velocity (UPV) and Rebound Hammer tests to evaluate concrete strength loss after high-temperature exposure in industrial fires.",
+        "content": "Full article content placeholder...",
+        "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800"
     }
 ]

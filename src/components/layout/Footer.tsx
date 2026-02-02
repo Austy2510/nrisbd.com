@@ -33,6 +33,17 @@ export function Footer() {
                 </div>
 
                 <div>
+                    <h4 className="font-bold mb-6 font-heading uppercase tracking-widest text-sm">Areas We Serve</h4>
+                    <ul className="space-y-3 text-sm text-muted-foreground">
+                        <li>Dhaka Metropolitan</li>
+                        <li>Gazipur Industrial Hub</li>
+                        <li>Chittagong Port Zone</li>
+                        <li>Savar & Ashulia</li>
+                        <li>Purbachal Smart City</li>
+                    </ul>
+                </div>
+
+                <div>
                     <h4 className="font-bold mb-6 font-heading uppercase tracking-widest text-sm">Connect</h4>
                     <div className="flex space-x-4 text-xl">
                         <a href="#" aria-label="LinkedIn" className="hover:text-white transition-colors"><FaLinkedin /></a>
@@ -40,7 +51,7 @@ export function Footer() {
                         <a href="#" aria-label="Instagram" className="hover:text-white transition-colors"><FaInstagram /></a>
                     </div>
                     <div className="mt-6 text-sm text-muted-foreground">
-                        <p>Dhaka, Bangladesh</p>
+                        <p>Corporate Office: Dhaka, BD</p>
                         <p>contact@nrisbd.com</p>
                     </div>
                 </div>
