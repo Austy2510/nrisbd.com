@@ -29,7 +29,12 @@ export function ProjectGrid() {
             try {
                 const data = await client.fetch(projectsQuery);
                 if (data && data.length > 0) {
-                    setProjects(data);
+                    // Only replace static projects if Sanity has more than a "sample"
+                    // Or if specifically intended. For now, we merge to ensure nothing is lost.
+                    const sanityProjects = data.filter((p: any) => p.title.toLowerCase() !== "sample");
+                    if (sanityProjects.length > 0) {
+                        setProjects(sanityProjects);
+                    }
                 }
             } catch (error) {
                 console.warn("Sanity fetch failed or returned no data, using local fallback.", error);
