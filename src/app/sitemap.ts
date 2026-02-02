@@ -1,11 +1,19 @@
 import { MetadataRoute } from 'next'
 import projects from '@/data/projects.json'
+import insights from '@/data/insights.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://nrisbd.com'
 
     const projectEntries: MetadataRoute.Sitemap = projects.map((project) => ({
         url: `${baseUrl}/projects/${project.id}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+    }))
+
+    const insightEntries: MetadataRoute.Sitemap = insights.map((article) => ({
+        url: `${baseUrl}/insights/${article.id}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
@@ -48,6 +56,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'yearly',
             priority: 0.5,
         },
-        ...projectEntries
+        {
+            url: `${baseUrl}/privacy`,
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.3,
+        },
+        {
+            url: `${baseUrl}/terms`,
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.3,
+        },
+        ...projectEntries,
+        ...insightEntries
     ]
 }

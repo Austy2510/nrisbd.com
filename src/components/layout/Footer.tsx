@@ -46,9 +46,9 @@ export function Footer() {
                 <div>
                     <h4 className="font-bold mb-6 font-heading uppercase tracking-widest text-sm">Connect</h4>
                     <div className="flex space-x-4 text-xl">
-                        <a href="#" aria-label="LinkedIn" className="hover:text-white transition-colors"><FaLinkedin /></a>
-                        <a href="#" aria-label="Twitter" className="hover:text-white transition-colors"><FaTwitter /></a>
-                        <a href="#" aria-label="Instagram" className="hover:text-white transition-colors"><FaInstagram /></a>
+                        <a href="https://linkedin.com/company/nrisbd" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors"><FaLinkedin /></a>
+                        <a href="https://twitter.com/nrisbd" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="hover:text-white transition-colors"><FaTwitter /></a>
+                        <a href="https://instagram.com/nrisbd" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors"><FaInstagram /></a>
                     </div>
                     <div className="mt-6 text-sm text-muted-foreground">
                         <p>Corporate Office: Dhaka, BD</p>

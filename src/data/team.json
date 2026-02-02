@@ -9,7 +9,7 @@
             "50 Years of Experience",
             "Infrastructure Visionary"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=SB"
+        "image": "https://images.unsplash.com/photo-1544168190-79c17527004f?auto=format&fit=crop&q=80&w=400&h=400"
     },
     {
         "id": "t2",
@@ -19,7 +19,7 @@
             "Ph.D., Tokyo University",
             "Environmental Impact Specialist"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=AA"
+        "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=400"
     },
     {
         "id": "t3",
@@ -29,7 +29,7 @@
             "21 Years of Experience",
             "Resource Management Expert"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=NK"
+        "image": "https://images.unsplash.com/photo-1556157382-97dee2dcbcd4?auto=format&fit=crop&q=80&w=400&h=400"
     },
     {
         "id": "t4",
@@ -39,6 +39,6 @@
             "Renewable Energy Specialist",
             "Prefeasibility & Solar Design"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=AR"
+        "image": "https://images.unsplash.com/photo-1628891438288-46da9571e584?auto=format&fit=crop&q=80&w=400&h=400"
     }
 ]
