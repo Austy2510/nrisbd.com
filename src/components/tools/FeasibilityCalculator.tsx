@@ -64,6 +64,7 @@ export function FeasibilityCalculator() {
                                 </div>
                                 <input
                                     type="range" min="1000" max="100000" step="1000"
+                                    aria-label="Lot Area in square feet"
                                     value={area} onChange={(e) => setArea(Number(e.target.value))}
                                     className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-600"
                                 />
@@ -76,6 +77,7 @@ export function FeasibilityCalculator() {
                                 </div>
                                 <input
                                     type="range" min="1" max="50" step="1"
+                                    aria-label="Total Stories"
                                     value={floors} onChange={(e) => setFloors(Number(e.target.value))}
                                     className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-600"
                                 />
@@ -92,6 +94,7 @@ export function FeasibilityCalculator() {
                                         />
                                         <button
                                             onClick={() => email && setIsSubmitted(true)}
+                                            aria-label="Submit Email"
                                             className="bg-blue-600 hover:bg-blue-500 text-white px-6 rounded-xl font-bold transition-all flex items-center"
                                         >
                                             <FiArrowRight size={20} />

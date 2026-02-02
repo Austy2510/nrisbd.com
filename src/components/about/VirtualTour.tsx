@@ -98,7 +98,10 @@ export function VirtualTour() {
 
             {/* Fullscreen Button Placeholder */}
             <div className="absolute bottom-12 right-12 z-10 transition-transform group-hover:scale-110">
-                <button className="w-16 h-16 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center text-white border border-white/20 hover:bg-blue-600 transition-all">
+                <button
+                    aria-label="Maximize Virtual Tour"
+                    className="w-16 h-16 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center text-white border border-white/20 hover:bg-blue-600 transition-all"
+                >
                     <FiMaximize size={24} />
                 </button>
             </div>

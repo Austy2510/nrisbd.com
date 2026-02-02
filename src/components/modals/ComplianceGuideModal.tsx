@@ -37,6 +37,7 @@ export function ComplianceGuideModal({ isOpen, onClose }: { isOpen: boolean, onC
                     >
                         <button
                             onClick={onClose}
+                            aria-label="Close Modal"
                             className="absolute top-8 right-8 text-white/40 hover:text-white transition-colors"
                         >
                             <FiX size={24} />

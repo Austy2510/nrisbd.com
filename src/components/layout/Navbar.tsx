@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import NextImage from "next/image";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -25,7 +25,7 @@ export function Navbar() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3">
                     <div className="relative w-12 h-12">
-                        <Image
+                        <NextImage
                             src="/assets/brand/logo.jpeg"
                             alt="NRIS Logo"
                             fill
