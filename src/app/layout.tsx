@@ -15,34 +15,34 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL('https://nrisbd.com'),
   title: {
-    default: 'NRIS BD | Advanced Engineering Consultancy',
-    template: '%s | NRIS BD'
+    default: 'NR Intellectual Solution | Advanced Engineering Consultancy',
+    template: '%s | NR Intellectual Solution'
   },
-  description: 'Redefining infrastructure with Digital Twins & Algorithmic Design. Bangladesh\'s premier engineering consultancy for high-rise, industrial, and infrastructure projects.',
-  keywords: ['Structural Engineering', 'Digital Twin', 'Bangladesh', 'NRIS BD', 'Civil Engineering', 'Retrofitting', 'High-Rise Design', 'BIM'],
-  authors: [{ name: 'NRIS BD' }],
-  creator: 'NRIS BD',
+  description: 'NR Intellectual Solution (NRIS) is Bangladesh\'s leading AEC consultancy. specializing in Digital Twins, Structural Audits, BIM, and Sustainable Infrastructure Development.',
+  keywords: ['NR Intellectual Solution', 'NRIS', 'Structural Engineering Bangladesh', 'Digital Twin Dhaka', 'BIM Consultancy Bangladesh', 'Structural Audit Savar', 'Civil Engineering Experts', 'Retrofitting Bangladesh', 'Architecture Dhaka'],
+  authors: [{ name: 'NR Intellectual Solution' }],
+  creator: 'NR Intellectual Solution',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://nrisbd.com',
-    title: 'NRIS BD | Engineering Resilience',
+    title: 'NR Intellectual Solution | Engineering Resilience',
     description: 'Bridging the gap between physics and code. We deploy Digital Twins to de-risk Bangladesh\'s most complex infrastructure.',
-    siteName: 'NRIS BD',
+    siteName: 'NR Intellectual Solution',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200&h=630', // Fallback OG Image
+        url: '/assets/brand/logo.jpeg',
         width: 1200,
         height: 630,
-        alt: 'NRIS BD Operations'
+        alt: 'NR Intellectual Solution Logo'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NRIS BD | Advanced Engineering',
+    title: 'NR Intellectual Solution | Advanced Engineering',
     description: 'Redefining infrastructure with Digital Twins & Algorithmic Design.',
-    images: ['https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200&h=630'],
+    images: ['/assets/brand/logo.jpeg'],
   }
 };
 

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "i1",
+        "title": "The Future of Digital Twins in Bangladesh Civil Engineering",
+        "category": "Technology",
+        "date": "2026-01-15",
+        "author": "Dr. Subrata Bose",
+        "excerpt": "Exploring how real-time structural monitoring and 4D BIM simulations are revolutionizing large-scale infrastructure projects in Dhaka.",
+        "content": "Full article content placeholder...",
+        "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "i2",
+        "title": "Navigating RAJUK's 2026 Construction Compliance Protocol",
+        "category": "Regulatory",
+        "date": "2025-12-10",
+        "author": "Engr. Afzal Ahmed",
+        "excerpt": "A technical breakdown of the latest fire safety and structural integrity requirements for residential high-rises in the metropolitan area.",
+        "content": "Full article content placeholder...",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "i3",
+        "title": "Retrofitting vs. Reconstruction: A Cost-Benefit Analysis",
+        "category": "Structural Audit",
+        "date": "2025-11-20",
+        "author": "Dr. Subrata Bose",
+        "excerpt": "How parametric modeling helps developers make informed decisions about aging industrial facilities in the Manikganj and Gazipur clusters.",
+        "content": "Full article content placeholder...",
+        "image": "https://images.unsplash.com/photo-1503387762-592be5a52680?auto=format&fit=crop&q=80&w=800"
+    }
+]

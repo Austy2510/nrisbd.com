@@ -138,5 +138,65 @@
         ],
         "image": "/assets/projects/tissue-culture-lab-1.jpeg",
         "description": "Detail design and structural assessment for the state-of-the-art Tissue Culture Lab Building at Savar."
+    },
+    {
+        "id": "p8",
+        "title": "Industrial Retrofitting - Gazipur",
+        "category": "Industrial / Audit",
+        "location": "Gazipur, BD",
+        "year": "2024",
+        "client": "Standard Group",
+        "stats": [
+            {
+                "label": "Method",
+                "value": "Non-Destructive Testing"
+            },
+            {
+                "label": "Area",
+                "value": "150,000 sq. ft"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800",
+        "description": "Comprehensive structural audit and subsequent retrofitting strategy for a large-scale RMG factory complex."
+    },
+    {
+        "id": "p9",
+        "title": "Smart City Master Plan",
+        "category": "Urban / Infrastructure",
+        "location": "Purbachal, Dhaka",
+        "year": "2025",
+        "client": "RAJUK",
+        "stats": [
+            {
+                "label": "BIM Level",
+                "value": "Level 3 (Digital Twin)"
+            },
+            {
+                "label": "Grid",
+                "value": "SCADA Integrated"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800",
+        "description": "Developing a computational master plan for smart utility integration in the Purbachal New Town Project."
+    },
+    {
+        "id": "p10",
+        "title": "Maheshkhali Floating Solar",
+        "category": "Energy / Marine",
+        "location": "Cox's Bazar",
+        "year": "2026",
+        "client": "Green Power Ltd.",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "50MWp"
+            },
+            {
+                "label": "Study",
+                "value": "Bathymetric Survey"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
+        "description": "Bathymetric study and anchor design for a floating solar aquaculture hybrid project in Maheshkhali."
     }
 ]
