@@ -27,7 +27,7 @@ export default function AboutPage() {
                             The Engineering <br /> <span className="text-blue-500">Core.</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl font-light leading-relaxed">
-                            Established in 2022, NRIS BD is a collective of highly qualified experts providing sustainable infrastructure development solutions for the digital age.
+                            Established in 2022, NR Intellectual Solution is a collective of highly qualified experts providing sustainable infrastructure development solutions for the digital age.
                         </p>
                     </div>
                 </div>

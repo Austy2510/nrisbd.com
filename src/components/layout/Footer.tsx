@@ -6,7 +6,7 @@ export function Footer() {
         <footer className="bg-background border-t border-white/10 py-20">
             <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div className="space-y-4">
-                    <h3 className="text-2xl font-bold font-heading">NRIS BD</h3>
+                    <h3 className="text-xl font-bold font-heading">NR Intellectual Solution</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
                         Redefining the digital frontier in AEC. We engineer immersive experiences that bridge the gap between vision and reality.
                     </p>
@@ -47,7 +47,7 @@ export function Footer() {
             </div>
 
             <div className="container mx-auto px-6 mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-muted-foreground">
-                <p>© {new Date().getFullYear()} NRIS BD. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} NR Intellectual Solution. All rights reserved.</p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
                     <Link href="/privacy">Privacy Policy</Link>
                     <Link href="/terms">Terms of Service</Link>

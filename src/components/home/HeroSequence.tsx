@@ -62,8 +62,8 @@ export function HeroSequence() {
                     className="absolute inset-0 flex flex-col justify-center items-start z-20 px-6 md:px-24 pointer-events-none"
                 >
                     <div className="overflow-hidden">
-                        <h1 className="text-7xl md:text-9xl font-black font-heading tracking-tighter mb-2 text-white animate-fade-up">
-                            NRIS BD
+                        <h1 className="text-5xl md:text-8xl font-black font-heading tracking-tighter mb-2 text-white animate-fade-up">
+                            NR Intellectual <br /> <span className="text-blue-500">Solution</span>
                         </h1>
                     </div>
                     <div className="overflow-hidden h-32 md:h-48 flex items-center">

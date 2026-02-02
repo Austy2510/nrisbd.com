@@ -32,8 +32,8 @@ export function Navbar() {
                             className="object-contain"
                         />
                     </div>
-                    <span className="text-2xl font-bold font-heading tracking-tighter">
-                        NRIS BD<span className="text-blue-500">.</span>
+                    <span className="text-xl font-bold font-heading tracking-tighter">
+                        NR Intellectual Solution<span className="text-blue-500">.</span>
                     </span>
                 </Link>
 
