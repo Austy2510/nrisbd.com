@@ -198,5 +198,105 @@
         ],
         "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
         "description": "Bathymetric study and anchor design for a floating solar aquaculture hybrid project in Maheshkhali."
+    },
+    {
+        "id": "p11",
+        "title": "Karnafuli Tunnel - Technical Audit",
+        "category": "Infrastructure / Transport",
+        "location": "Chattogram, BD",
+        "year": "2024",
+        "client": "BBA",
+        "stats": [
+            {
+                "label": "Type",
+                "value": "Underwater Tunnel"
+            },
+            {
+                "label": "Audit",
+                "value": "Vibration Analysis"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1545147981-197a31acd5ee?auto=format&fit=crop&q=80&w=800",
+        "description": "Specialized vibration and structural monitoring for the approach bridges of the Bangabandhu Sheikh Mujibur Rahman Tunnel."
+    },
+    {
+        "id": "p12",
+        "title": "Metropolitan Medical City",
+        "category": "Healthcare / MEP",
+        "location": "Dhaka, BD",
+        "year": "2025",
+        "client": "Confidential",
+        "stats": [
+            {
+                "label": "Beds",
+                "value": "500+ Capable"
+            },
+            {
+                "label": "BIM",
+                "value": "LOD 400"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1519494140681-1255ec483582?auto=format&fit=crop&q=80&w=800",
+        "description": "Complex MEP coordination and structural design for a state-of-the-art multi-disciplinary hospital complex."
+    },
+    {
+        "id": "p13",
+        "title": "Avenue 7 - Luxury Skyscraper",
+        "category": "Residential / High-Rise",
+        "location": "Gulshan 2, Dhaka",
+        "year": "2026",
+        "client": "Premium Living Ltd.",
+        "stats": [
+            {
+                "label": "Height",
+                "value": "150m+"
+            },
+            {
+                "label": "System",
+                "value": "Concrete Core + Outriggers"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800",
+        "description": "Advanced structural engineering for one of the tallest residential towers in the Gulshan diplomatic zone."
+    },
+    {
+        "id": "p14",
+        "title": "Dhaka Water Treatment Plant",
+        "category": "Infrastructure / Environmental",
+        "location": "Narayanganj, BD",
+        "year": "2023",
+        "client": "DWASA",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "500MLD"
+            },
+            {
+                "label": "Testing",
+                "value": "Concrete Durability"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1582533089852-029ff64467ec?auto=format&fit=crop&q=80&w=800",
+        "description": "Design verification and supervision for high-capacity water retention and treatment tanks."
+    },
+    {
+        "id": "p15",
+        "title": "Science & Tech Innovation Hub",
+        "category": "Institutional / Education",
+        "location": "Kaliakair, BD",
+        "year": "2025",
+        "client": "ICT Division",
+        "stats": [
+            {
+                "label": "Design",
+                "value": "Parametric"
+            },
+            {
+                "label": "Rating",
+                "value": "LEED Platinum"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800",
+        "description": "A net-zero carbon campus featuring adaptive reuse of materials and intelligent building management systems."
     }
 ]
