@@ -7,8 +7,6 @@ import staticProjects from "@/data/projects.json";
 import { cn } from "@/lib/utils";
 // Using react-icons/fi
 import { FiArrowUpRight, FiLayers, FiMapPin } from "react-icons/fi";
-import { client } from "@/sanity/lib/client";
-import { projectsQuery } from "@/sanity/lib/queries";
 import Link from "next/link";
 
 interface Project {
@@ -22,26 +20,7 @@ interface Project {
 
 export function ProjectGrid() {
     const [hoveredId, setHoveredId] = useState<string | null>(null);
-    const [projects, setProjects] = useState<Project[]>(staticProjects as Project[]);
-
-    useEffect(() => {
-        const fetchProjects = async () => {
-            try {
-                const data = await client.fetch(projectsQuery);
-                if (data && data.length > 0) {
-                    // Only replace static projects if Sanity has more than a "sample"
-                    // Or if specifically intended. For now, we merge to ensure nothing is lost.
-                    const sanityProjects = data.filter((p: any) => p.title.toLowerCase() !== "sample");
-                    if (sanityProjects.length > 0) {
-                        setProjects(sanityProjects);
-                    }
-                }
-            } catch (error) {
-                console.warn("Sanity fetch failed or returned no data, using local fallback.", error);
-            }
-        };
-        fetchProjects();
-    }, []);
+    const projects = staticProjects as Project[];
 
     return (
         <section className="py-24 bg-background">
