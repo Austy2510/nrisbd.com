@@ -172,9 +172,15 @@ h6 {
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-/* Optional: Add shimmer to all glass cards or use a specific modifier */
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+}
+
 .glass-card::before {
   content: '';
   position: absolute;
@@ -186,4 +192,22 @@ h6 {
   transform: translateX(-100%);
   animation: shimmer 3s infinite;
   pointer-events: none;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #f8fafc 0%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+.bg-grid-white {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='white' stroke-opacity='0.1'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}
+
+.mask-radial {
+  mask-image: radial-gradient(circle at center, black, transparent 80%);
 }

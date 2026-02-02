@@ -1,116 +1,142 @@
 [
     {
         "id": "p1",
-        "title": "Dhaka Metro Line 6 Audit",
-        "category": "Infrastructure",
-        "location": "Mirpur - Motijheel",
+        "title": "Panorama Liberation War Museum",
+        "category": "High-Rise / Cultural",
+        "location": "Bangladesh",
         "year": "2024",
+        "client": "Ministry of Liberation War",
         "stats": [
             {
-                "label": "Concrete Volume",
-                "value": "120,000 m³"
+                "label": "Scope",
+                "value": "Detail Design"
             },
             {
-                "label": "Lives Impacted",
-                "value": "5M+"
+                "label": "Study",
+                "value": "River Morphological"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1590644365607-1c5a38d0747d?q=80&w=2574&auto=format&fit=crop",
-        "description": "Comprehensive structural integrity assessment using advanced non-destructive testing (NDT) and digital twin modeling."
+        "image": "/assets/projects/office-complex-1.jpeg",
+        "description": "Detail design, river morphological study, and tender preparation for the prestigious Panorama Liberation War Museum."
     },
     {
         "id": "p2",
-        "title": "Bashundhara Sky Tower",
-        "category": "High-Rise",
-        "location": "Bashundhara R/A",
-        "year": "2025",
+        "title": "Manikganj Int. Cricket Stadium",
+        "category": "Sports / Infrastructure",
+        "location": "Manikganj",
+        "year": "2024",
+        "client": "National Sports Council",
         "stats": [
             {
-                "label": "Height",
-                "value": "180m"
+                "label": "Phase",
+                "value": "Feasibility & Master Plan"
             },
             {
-                "label": "Wind Load",
-                "value": "240 km/h"
+                "label": "Engineering",
+                "value": "Structural Design"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
-        "description": "A 40-story commercial icon designed with wind-tunnel validated aerodynamics and LEED Platinum sustainability standards."
+        "image": "/assets/projects/office-complex-2.jpeg",
+        "description": "Comprehensive feasibility study, master planning, and structural design for an international standard cricket stadium."
     },
     {
         "id": "p3",
-        "title": "Padma Bridge Monitoring",
-        "category": "Infrastructure",
-        "location": "Mawa",
+        "title": "Sheikh Russel Water Base Park",
+        "category": "Urban / Environment",
+        "location": "Dhaka (RAJUK)",
         "year": "2023",
+        "client": "RAJUK",
         "stats": [
             {
-                "label": "Sensors",
-                "value": "5,000+"
+                "label": "ESIA",
+                "value": "Environmental & Social"
             },
             {
-                "label": "Data Points",
-                "value": "1TB/day"
+                "label": "Impact",
+                "value": "Advanced Analysis"
             }
         ],
         "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=800",
-        "description": "Real-time structural health monitoring (SHM) system deployment for Bangladesh's largest infrastructure asset."
+        "description": "Environmental and Social Impact Assessments for the Sheikh Russel Water Base Park under RAJUK."
     },
     {
         "id": "p4",
-        "title": "Chattogram Logistics Hub",
-        "category": "Industrial",
-        "location": "Chattogram Port",
+        "title": "200MWac Solar Power Plant",
+        "category": "Power & Energy",
+        "location": "Bangladesh",
         "year": "2024",
+        "client": "Cloud Systems Ltd.",
         "stats": [
             {
-                "label": "Area",
-                "value": "50 Acres"
+                "label": "Capacity",
+                "value": "200MWac"
             },
             {
-                "label": "Steel Used",
-                "value": "15,000 Tons"
+                "label": "Study",
+                "value": "Prefeasibility"
             }
         ],
         "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
-        "description": "Optimization of large-span steel structures for automated warehousing and heavy logistics operations."
+        "description": "Prefeasibility study and climate investigation for a large-scale solar power generation facility."
     },
     {
         "id": "p5",
-        "title": "Green Textile Retrofit",
-        "category": "Industrial",
-        "location": "Gazipur",
+        "title": "10-Storied Student Hostel",
+        "category": "Residential / Institutional",
+        "location": "SUST, Sylhet",
         "year": "2023",
+        "client": "SUST, Sylhet",
         "stats": [
             {
-                "label": "Energy Savings",
-                "value": "40%"
+                "label": "MEP",
+                "value": "Design & Super"
             },
             {
-                "label": "Safety Score",
-                "value": "99.9%"
+                "label": "Stories",
+                "value": "10-Storied"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
-        "description": "Structural strengthening and fire-safety retrofitting for a Tier-1 garment factory to meet ACCORD/ALLIANCE standards."
+        "image": "/assets/projects/office-complex-3.jpeg",
+        "description": "Architecture, MEP design, and full construction supervision for the student hostel at SUST."
     },
     {
         "id": "p6",
-        "title": "Gulshan Lakefront Residence",
-        "category": "Residential",
-        "location": "Gulshan 2",
+        "title": "400kV Transmission Line IEE",
+        "category": "Power & Energy",
+        "location": "Madunaghat/Maheshkhali",
         "year": "2025",
+        "client": "National Grid",
         "stats": [
             {
-                "label": "Luxury Units",
-                "value": "24"
+                "label": "Voltage",
+                "value": "400kV"
             },
             {
-                "label": "Cantilever",
-                "value": "5m"
+                "label": "Report",
+                "value": "IEE Preparation"
             }
         ],
         "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
-        "description": "Boutique luxury residence featuring complex cantilevered terraces and exposed concrete aesthetics."
+        "description": "Baseline data collection and Initial Environmental Examination (IEE) report preparation for high-voltage transmission lines."
+    },
+    {
+        "id": "p7",
+        "title": "Tissue Culture Lab Building",
+        "category": "Institutional / Laboratory",
+        "location": "Rajlakh, Savar",
+        "year": "2023",
+        "client": "National Institute of Biotechnology",
+        "stats": [
+            {
+                "label": "Scope",
+                "value": "Detail Design"
+            },
+            {
+                "label": "Engineering",
+                "value": "Forensic Structural"
+            }
+        ],
+        "image": "/assets/projects/tissue-culture-lab-1.jpeg",
+        "description": "Detail design and structural assessment for the state-of-the-art Tissue Culture Lab Building at Savar."
     }
 ]

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -22,8 +23,18 @@ export function Navbar() {
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="text-2xl font-bold font-heading tracking-tighter">
-                    NRIS BD<span className="text-primary-foreground/50">.</span>
+                <Link href="/" className="flex items-center gap-3">
+                    <div className="relative w-12 h-12">
+                        <Image
+                            src="/assets/brand/logo.jpeg"
+                            alt="NRIS Logo"
+                            fill
+                            className="object-contain"
+                        />
+                    </div>
+                    <span className="text-2xl font-bold font-heading tracking-tighter">
+                        NRIS BD<span className="text-blue-500">.</span>
+                    </span>
                 </Link>
 
                 {/* Desktop Nav */}

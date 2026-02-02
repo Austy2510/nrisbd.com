@@ -1,43 +1,44 @@
 [
     {
         "id": "t1",
-        "name": "Engr. Tabassum Rahman",
-        "role": "Principal Engineer & CEO",
+        "name": "Dr. Subrata Bose",
+        "role": "Chief Engineer",
+        "experience": "50+ Years",
         "credentials": [
-            "M.Sc. Structural Engineering (BUET)",
-            "FIEB",
-            "PEng"
+            "Leading Engineering Authority",
+            "50 Years of Experience",
+            "Infrastructure Visionary"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=TR"
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=SB"
     },
     {
         "id": "t2",
-        "name": "Engr. Saiful Islam",
-        "role": "Lead Structural Engineer",
+        "name": "Dr. Afzal Ahmed",
+        "role": "Environmental Expert",
         "credentials": [
-            "B.Sc. Civil Engineering (BUET)",
-            "ETABS Certified"
+            "Ph.D., Tokyo University",
+            "Environmental Impact Specialist"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=SI"
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=AA"
     },
     {
         "id": "t3",
-        "name": "Ar. Sarah Ahmed",
-        "role": "BIM Specialist",
+        "name": "Dr. Nasir Uddin Khan",
+        "role": "Environmental Specialist",
         "credentials": [
-            "B.Arch (BRACU)",
-            "Autodesk Revit Pro"
+            "21 Years of Experience",
+            "Resource Management Expert"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=SA"
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=NK"
     },
     {
         "id": "t4",
-        "name": "Dr. Kamal Hossain",
-        "role": "Geotechnical Consultant",
+        "name": "Aminur Rahman",
+        "role": "Solar Power Plant Expert",
         "credentials": [
-            "PhD (Japan)",
-            "Soil Dynamics Expert"
+            "Renewable Energy Specialist",
+            "Prefeasibility & Solar Design"
         ],
-        "image": "https://placehold.co/400x400/1e293b/ffffff?text=KH"
+        "image": "https://placehold.co/400x400/1e293b/ffffff?text=AR"
     }
 ]
