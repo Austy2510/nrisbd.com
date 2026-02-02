@@ -63,22 +63,28 @@ export default function ProjectDetail({ params }: { params: Promise<{ id: string
                                 {project.description}
                             </p>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
-                                <div className="glass-card p-8 rounded-3xl">
-                                    <h3 className="text-blue-500 font-bold mb-4 flex items-center">
-                                        <FiCheckCircle className="mr-2" /> Core Objective
-                                    </h3>
-                                    <p className="text-muted-foreground text-sm leading-relaxed">
-                                        Leveraging advanced structural intelligence to ensure the long-term resilience and operational excellence of this {project.category.toLowerCase()} asset.
-                                    </p>
-                                </div>
-                                <div className="glass-card p-8 rounded-3xl">
-                                    <h3 className="text-blue-500 font-bold mb-4 flex items-center">
-                                        <FiCheckCircle className="mr-2" /> Technical Approach
-                                    </h3>
-                                    <p className="text-muted-foreground text-sm leading-relaxed">
-                                        Deployment of Digital Twin methodologies and site-specific morphological analysis to mitigate risk and optimize lifecycle costs.
-                                    </p>
+                            <div className="mb-16">
+                                <h3 className="text-xl font-bold font-heading text-white mb-6">Strategic Complexity</h3>
+                                <p className="text-muted-foreground font-light leading-relaxed mb-8">
+                                    This project required navigating a dense multidisciplinary landscape, balancing environmental mandates with tight engineering tolerances. Our team utilized computational modeling to simulate various "what-if" scenarios, ensuring the design remained robust even under extreme socio-economic or physical loads.
+                                </p>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                                    <div className="glass-card p-8 rounded-3xl">
+                                        <h3 className="text-blue-500 font-bold mb-4 flex items-center">
+                                            <FiCheckCircle className="mr-2" /> Technical Solution
+                                        </h3>
+                                        <p className="text-muted-foreground text-sm leading-relaxed">
+                                            Deployment of Digital Twin methodologies and site-specific morphological analysis to mitigate risk and optimize lifecycle costs.
+                                        </p>
+                                    </div>
+                                    <div className="glass-card p-8 rounded-3xl">
+                                        <h3 className="text-blue-500 font-bold mb-4 flex items-center">
+                                            <FiCheckCircle className="mr-2" /> Engineering Outcome
+                                        </h3>
+                                        <p className="text-muted-foreground text-sm leading-relaxed">
+                                            Achieved a 15% reduction in material waste through topological optimization while ensuring 100% compliance with international safety protocols.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -69,6 +69,30 @@ export default function AboutPage() {
                 </div>
             </section>
 
+            {/* Firm Impact / Stats */}
+            <section className="py-24 px-6 bg-slate-900/10">
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <div className="text-center space-y-2">
+                            <div className="text-4xl md:text-6xl font-black font-heading text-blue-500">15+</div>
+                            <div className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-mono">Core Projects</div>
+                        </div>
+                        <div className="text-center space-y-2">
+                            <div className="text-4xl md:text-6xl font-black font-heading text-blue-500">100%</div>
+                            <div className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-mono">NDT Compliance</div>
+                        </div>
+                        <div className="text-center space-y-2">
+                            <div className="text-4xl md:text-6xl font-black font-heading text-blue-500">50Yr+</div>
+                            <div className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-mono">Senior Expertise</div>
+                        </div>
+                        <div className="text-center space-y-2">
+                            <div className="text-4xl md:text-6xl font-black font-heading text-blue-500">24/7</div>
+                            <div className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-mono">Response Protocol</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Team Grid */}
             <section className="py-32 px-6">
                 <div className="container mx-auto">
