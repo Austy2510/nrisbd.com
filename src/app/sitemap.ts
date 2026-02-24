@@ -3,7 +3,7 @@ import projects from '@/data/projects.json'
 import insights from '@/data/insights.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://nrisbd.com'
+    const baseUrl = 'https://nris.com.bd'
 
     const projectEntries: MetadataRoute.Sitemap = projects.map((project) => ({
         url: `${baseUrl}/projects/${project.id}`,

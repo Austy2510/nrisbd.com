@@ -71,7 +71,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-lg text-white mb-1">Technical Inquiries</h4>
-                                    <p className="text-muted-foreground font-light">projects@nrisbd.com</p>
+                                    <p className="text-muted-foreground font-light">projects@nris.com.bd</p>
                                 </div>
                             </div>
 

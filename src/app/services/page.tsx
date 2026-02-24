@@ -1,7 +1,33 @@
+import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { FiDownload, FiCheckCircle, FiShield, FiZap, FiTarget, FiLayers } from "react-icons/fi";
 import { ServiceWorkflow } from "@/components/services/ServiceWorkflow";
+
+export const metadata: Metadata = {
+    title: "Services - Structural Audits, BIM, Digital Twins & More",
+    description:
+        "Explore NR Intellectual Solution's engineering services: Forensic Structural Engineering, BIM & Digital Twins, ESIA & Sustainability, Power Infrastructure, Marine & Hydrography, and Smart City Planning in Bangladesh.",
+    keywords: [
+        "structural audit Bangladesh",
+        "BIM consultancy Dhaka",
+        "digital twin services",
+        "ESIA Bangladesh",
+        "power infrastructure engineering",
+        "smart city planning Dhaka",
+        "forensic structural engineering",
+        "NDT testing Bangladesh",
+    ],
+    alternates: {
+        canonical: "https://nris.com.bd/services",
+    },
+    openGraph: {
+        title: "Engineering Services | NR Intellectual Solution",
+        description:
+            "High-precision engineering services from forensic structural audits to advanced algorithmic design.",
+        url: "https://nris.com.bd/services",
+    },
+};
 
 export default function ServicesPage() {
     return (

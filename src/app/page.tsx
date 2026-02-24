@@ -8,8 +8,51 @@ import { FAQSection } from "@/components/home/FAQSection";
 import { FiHexagon, FiZap, FiDatabase } from "react-icons/fi";
 
 export default function Home() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What exactly is a Structural Audit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A structural audit is a technical health checkup of a building. At NR Intellectual Solution, we use Non-Destructive Testing (NDT) and visual inspections to assess load-carrying capacity, structural stability, and compliance with the Bangladesh National Building Code (BNBC)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why should I use BIM for my project in Bangladesh?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BIM (Building Information Modeling) reduces construction waste by up to 20% through clash detection. In the complex construction landscape of Dhaka, BIM allows us to simulate every pipe, beam, and wire before construction begins, saving time and costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a typical feasibility study take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depending on the scale (Residential vs. Industrial), a preliminary feasibility study takes 7-14 days. This includes geotechnical review, local regulation checks (RAJUK/CDA), and initial ROI projections."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide consultancy for RMG factory compliance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We specialize in remedial works and fire safety audits for the RMG sector, ensuring factories meet international standards for exports and ACCORD/RSC guidelines."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen flex flex-col bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Navbar />
 
       {/* 3D Scrollytelling Hero */}

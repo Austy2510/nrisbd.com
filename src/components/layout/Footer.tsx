@@ -52,7 +52,7 @@ export function Footer() {
                     </div>
                     <div className="mt-6 text-sm text-muted-foreground">
                         <p>Corporate Office: Dhaka, BD</p>
-                        <p>contact@nrisbd.com</p>
+                        <p>contact@nris.com.bd</p>
                     </div>
                 </div>
             </div>
