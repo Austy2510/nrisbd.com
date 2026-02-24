@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { FiDownload, FiCheckCircle, FiShield, FiZap, FiTarget, FiLayers } from "react-icons/fi";
 import { ServiceWorkflow } from "@/components/services/ServiceWorkflow";
 
@@ -32,6 +33,10 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
     return (
         <main className="min-h-screen bg-background">
+            <Breadcrumbs items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" }
+            ]} />
             <Navbar />
 
             <div className="container mx-auto px-6 py-32">

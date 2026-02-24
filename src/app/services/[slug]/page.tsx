@@ -1,12 +1,25 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ServiceScrollytelling } from "@/components/services/ServiceScrollytelling";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { ServiceSchema } from "@/components/seo/ServiceSchema";
 import { FiArrowLeft } from "react-icons/fi";
 import Link from "next/link";
 
 export default function ServiceDetailPage({ params }: { params: { slug: string } }) {
     return (
         <main className="min-h-screen bg-background text-foreground">
+            <Breadcrumbs items={[
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services" },
+                { name: "Structural Audit", href: "/services/structural-audit" }
+            ]} />
+            <ServiceSchema
+                name="Structural Audit & Forensic Engineering"
+                description="Comprehensive structural audit services including forensic engineering, Non-Destructive Testing (NDT), seismic assessment, and condition surveys for commercial and industrial buildings in Bangladesh."
+                url="https://nris.com.bd/services/structural-audit"
+                serviceType="Structural Engineering Audit"
+            />
             <Navbar />
 
             {/* Minimal Hero for the specific service */}

@@ -19,16 +19,18 @@ export function Footer() {
                         <li><Link href="/projects" className="hover:text-white transition-colors">Projects</Link></li>
                         <li><Link href="/services" className="hover:text-white transition-colors">Expertise</Link></li>
                         <li><Link href="/about" className="hover:text-white transition-colors">Studio</Link></li>
+                        <li><Link href="/insights" className="hover:text-white transition-colors">Insights</Link></li>
+                        <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4 className="font-bold mb-6 font-heading uppercase tracking-widest text-sm">Services</h4>
                     <ul className="space-y-3 text-sm text-muted-foreground">
-                        <li>Structural Audits</li>
-                        <li>BIM Consultation</li>
-                        <li>Digital Twins</li>
-                        <li>Feasibility Studies</li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Structural Audits</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">BIM Consultation</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Digital Twins</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Feasibility Studies</Link></li>
                     </ul>
                 </div>
 

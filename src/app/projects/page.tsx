@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { ProjectGrid } from "@/components/projects/ProjectGrid";
 
 export const metadata: Metadata = {
@@ -28,6 +29,10 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
     return (
         <main className="min-h-screen bg-background">
+            <Breadcrumbs items={[
+                { name: "Home", href: "/" },
+                { name: "Projects", href: "/projects" }
+            ]} />
             <Navbar />
             <div className="pt-20">
                 <ProjectGrid />

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import Image from "next/image";
 import team from "@/data/team.json";
 import { FiDownload, FiCheckCircle, FiShield, FiZap, FiTarget } from "react-icons/fi";
@@ -14,6 +15,10 @@ export default function AboutPage() {
 
     return (
         <main className="min-h-screen bg-background">
+            <Breadcrumbs items={[
+                { name: "Home", href: "/" },
+                { name: "About", href: "/about" }
+            ]} />
             <Navbar />
 
             {/* Hero */}

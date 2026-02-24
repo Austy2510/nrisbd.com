@@ -2,6 +2,7 @@
 
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import insights from "@/data/insights.json";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -10,6 +11,10 @@ import { FiCalendar, FiUser, FiArrowRight } from "react-icons/fi";
 export default function InsightsPage() {
     return (
         <main className="min-h-screen bg-background flex flex-col">
+            <Breadcrumbs items={[
+                { name: "Home", href: "/" },
+                { name: "Insights", href: "/insights" }
+            ]} />
             <Navbar />
 
             {/* Header */}

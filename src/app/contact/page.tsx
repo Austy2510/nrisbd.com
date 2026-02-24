@@ -2,6 +2,7 @@
 
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { FiMail, FiMapPin, FiPhone, FiCheckCircle, FiLoader } from "react-icons/fi";
 import { useState } from "react";
 
@@ -39,6 +40,10 @@ export default function ContactPage() {
 
     return (
         <main className="min-h-screen bg-background text-foreground">
+            <Breadcrumbs items={[
+                { name: "Home", href: "/" },
+                { name: "Contact", href: "/contact" }
+            ]} />
             <Navbar />
 
             <div className="container mx-auto px-6 py-32">
