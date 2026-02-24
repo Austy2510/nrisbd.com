@@ -14,6 +14,9 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nris.com.bd'),
+  verification: {
+    google: 'gs4MaZrepPE3zf1N3dYgDYdz9S_UdnD90Mv4_EqNr-k',
+  },
   title: {
     default: 'NR Intellectual Solution | Advanced Engineering Consultancy in Bangladesh',
     template: '%s | NR Intellectual Solution'
