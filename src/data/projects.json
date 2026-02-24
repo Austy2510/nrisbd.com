@@ -2,14 +2,14 @@
     {
         "id": "p1",
         "title": "Panorama Liberation War Museum",
-        "category": "High-Rise / Cultural",
-        "location": "Bangladesh",
-        "year": "2024",
-        "client": "Ministry of Liberation War",
+        "category": "Cultural / Feasibility",
+        "location": "Munshiganj",
+        "year": "2022-2023",
+        "client": "Ministry of Liberation War Affairs",
         "stats": [
             {
                 "label": "Scope",
-                "value": "Detail Design"
+                "value": "Feasibility & Detail Design"
             },
             {
                 "label": "Study",
@@ -17,15 +17,15 @@
             }
         ],
         "image": "/assets/projects/office-complex-1.jpeg",
-        "description": "Detail design, river morphological study, and tender preparation for the prestigious Panorama Liberation War Museum."
+        "description": "Feasibility study and detail design for the Panorama Liberation War Museum near Padma Bridge, including sub-soil investigation, river morphological study, environmental and social safeguard management plan, and tender document preparation."
     },
     {
         "id": "p2",
         "title": "Manikganj Int. Cricket Stadium",
         "category": "Sports / Infrastructure",
         "location": "Manikganj",
-        "year": "2024",
-        "client": "National Sports Council",
+        "year": "2022-2023",
+        "client": "National Sports Council (NSC)",
         "stats": [
             {
                 "label": "Phase",
@@ -33,17 +33,17 @@
             },
             {
                 "label": "Engineering",
-                "value": "Structural Design"
+                "value": "Structural & MEP Design"
             }
         ],
         "image": "/assets/projects/office-complex-2.jpeg",
-        "description": "Comprehensive feasibility study, master planning, and structural design for an international standard cricket stadium."
+        "description": "Comprehensive feasibility study, architectural design, master plan, structural design, MEP design, hydro-morphological study, river bank protection, BOQ & cost estimation, and DPP preparation for an international cricket stadium complex."
     },
     {
         "id": "p3",
         "title": "Sheikh Russel Water Base Park",
-        "category": "Urban / Environment",
-        "location": "Dhaka (RAJUK)",
+        "category": "Urban / Recreation",
+        "location": "Keraniganj, Dhaka",
         "year": "2023",
         "client": "RAJUK",
         "stats": [
@@ -52,19 +52,19 @@
                 "value": "Environmental & Social"
             },
             {
-                "label": "Impact",
-                "value": "Advanced Analysis"
+                "label": "Survey",
+                "value": "Detail & Sub-soil"
             }
         ],
         "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=800",
-        "description": "Environmental and Social Impact Assessments for the Sheikh Russel Water Base Park under RAJUK."
+        "description": "Detail survey, sub-soil investigation with geological assessment, hydro-morphological study, and Environmental & Social Impact Assessment for a modern recreational water-based park in Ghatarchar area, Keraniganj."
     },
     {
         "id": "p4",
         "title": "200MWac Solar Power Plant",
         "category": "Power & Energy",
-        "location": "Bangladesh",
-        "year": "2024",
+        "location": "Kalapara, Patuakhali",
+        "year": "2022-2023",
         "client": "Cloud Systems Ltd.",
         "stats": [
             {
@@ -77,19 +77,19 @@
             }
         ],
         "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
-        "description": "Prefeasibility study and climate investigation for a large-scale solar power generation facility."
+        "description": "Prefeasibility study including site buildability assessment, climate investigation, potential site development works, accessibility assessment, survey and data analysis for a large-scale solar power plant at Dhulaswar Mouza."
     },
     {
         "id": "p5",
-        "title": "10-Storied Student Hostel",
-        "category": "Residential / Institutional",
+        "title": "10-Storied Male Student Hostel",
+        "category": "Institutional / Residential",
         "location": "SUST, Sylhet",
-        "year": "2023",
-        "client": "SUST, Sylhet",
+        "year": "2022-2025",
+        "client": "Shahjalal University of Science & Technology",
         "stats": [
             {
                 "label": "MEP",
-                "value": "Design & Super"
+                "value": "Full Design"
             },
             {
                 "label": "Stories",
@@ -97,15 +97,15 @@
             }
         ],
         "image": "/assets/projects/office-complex-3.jpeg",
-        "description": "Architecture, MEP design, and full construction supervision for the student hostel at SUST."
+        "description": "Architecture, structural design, plumbing, electro/mechanical design, 3D drawing, cost estimation, and tender document preparation for a 10-storied male student hostel at SUST."
     },
     {
         "id": "p6",
         "title": "400kV Transmission Line IEE",
         "category": "Power & Energy",
-        "location": "Madunaghat/Maheshkhali",
-        "year": "2025",
-        "client": "National Grid",
+        "location": "Madunaghat to Maheshkhali",
+        "year": "2020",
+        "client": "PGCB / National Grid",
         "stats": [
             {
                 "label": "Voltage",
@@ -117,186 +117,306 @@
             }
         ],
         "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
-        "description": "Baseline data collection and Initial Environmental Examination (IEE) report preparation for high-voltage transmission lines."
+        "description": "Preparation of Initial Environmental Examination (IEE) for 400kV transmission line from New Madunaghat Substation to Maheshkhali via Banshkhali, including baseline data, stakeholder consultation, national policy compliance, and ECC submission."
     },
     {
         "id": "p7",
-        "title": "Tissue Culture Lab Building",
-        "category": "Institutional / Laboratory",
-        "location": "Rajlakh, Savar",
-        "year": "2023",
-        "client": "National Institute of Biotechnology",
+        "title": "5-Storied Academic Building",
+        "category": "Institutional / Education",
+        "location": "Kazi Abdul Haque College",
+        "year": "2022-2025",
+        "client": "Al-Haramain Group",
         "stats": [
             {
                 "label": "Scope",
-                "value": "Detail Design"
+                "value": "Detail Design & Supervision"
             },
             {
-                "label": "Engineering",
-                "value": "Forensic Structural"
-            }
-        ],
-        "image": "/assets/projects/tissue-culture-lab-1.jpeg",
-        "description": "Detail design and structural assessment for the state-of-the-art Tissue Culture Lab Building at Savar."
-    },
-    {
-        "id": "p8",
-        "title": "Industrial Retrofitting - Gazipur",
-        "category": "Industrial / Audit",
-        "location": "Gazipur, BD",
-        "year": "2024",
-        "client": "Standard Group",
-        "stats": [
-            {
-                "label": "Method",
-                "value": "Non-Destructive Testing"
-            },
-            {
-                "label": "Area",
-                "value": "150,000 sq. ft"
+                "label": "Stories",
+                "value": "5-Storied"
             }
         ],
         "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800",
-        "description": "Comprehensive structural audit and subsequent retrofitting strategy for a large-scale RMG factory complex."
+        "description": "Topographic survey, sub-soil investigation, architectural drawings, structural design, plumbing & MEP design, 3D drawing, cost estimation, and tender document preparation for a 5-storied academic building."
     },
     {
-        "id": "p9",
-        "title": "Smart City Master Plan",
-        "category": "Urban / Infrastructure",
-        "location": "Purbachal, Dhaka",
-        "year": "2025",
-        "client": "RAJUK",
+        "id": "p8",
+        "title": "PGCB Grid Substation Office Building",
+        "category": "Power & Energy",
+        "location": "Kaliakair",
+        "year": "2022-2025",
+        "client": "Power Grid Company of Bangladesh (PGCB)",
         "stats": [
             {
-                "label": "BIM Level",
-                "value": "Level 3 (Digital Twin)"
+                "label": "Facility",
+                "value": "400/230/132 kV Grid"
             },
             {
-                "label": "Grid",
-                "value": "SCADA Integrated"
-            }
-        ],
-        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800",
-        "description": "Developing a computational master plan for smart utility integration in the Purbachal New Town Project."
-    },
-    {
-        "id": "p10",
-        "title": "Maheshkhali Floating Solar",
-        "category": "Energy / Marine",
-        "location": "Cox's Bazar",
-        "year": "2026",
-        "client": "Green Power Ltd.",
-        "stats": [
-            {
-                "label": "Capacity",
-                "value": "50MWp"
-            },
-            {
-                "label": "Study",
-                "value": "Bathymetric Survey"
-            }
-        ],
-        "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
-        "description": "Bathymetric study and anchor design for a floating solar aquaculture hybrid project in Maheshkhali."
-    },
-    {
-        "id": "p11",
-        "title": "Karnafuli Tunnel - Technical Audit",
-        "category": "Infrastructure / Transport",
-        "location": "Chattogram, BD",
-        "year": "2024",
-        "client": "BBA",
-        "stats": [
-            {
-                "label": "Type",
-                "value": "Underwater Tunnel"
-            },
-            {
-                "label": "Audit",
-                "value": "Vibration Analysis"
-            }
-        ],
-        "image": "https://images.unsplash.com/photo-1545147981-197a31acd5ee?auto=format&fit=crop&q=80&w=800",
-        "description": "Specialized vibration and structural monitoring for the approach bridges of the Bangabandhu Sheikh Mujibur Rahman Tunnel."
-    },
-    {
-        "id": "p12",
-        "title": "Metropolitan Medical City",
-        "category": "Healthcare / MEP",
-        "location": "Dhaka, BD",
-        "year": "2025",
-        "client": "Confidential",
-        "stats": [
-            {
-                "label": "Beds",
-                "value": "500+ Capable"
-            },
-            {
-                "label": "BIM",
-                "value": "LOD 400"
-            }
-        ],
-        "image": "https://images.unsplash.com/photo-1519494140681-1255ec483582?auto=format&fit=crop&q=80&w=800",
-        "description": "Complex MEP coordination and structural design for a state-of-the-art multi-disciplinary hospital complex."
-    },
-    {
-        "id": "p13",
-        "title": "Avenue 7 - Luxury Skyscraper",
-        "category": "Residential / High-Rise",
-        "location": "Gulshan 2, Dhaka",
-        "year": "2026",
-        "client": "Premium Living Ltd.",
-        "stats": [
-            {
-                "label": "Height",
-                "value": "150m+"
-            },
-            {
-                "label": "System",
-                "value": "Concrete Core + Outriggers"
-            }
-        ],
-        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800",
-        "description": "Advanced structural engineering for one of the tallest residential towers in the Gulshan diplomatic zone."
-    },
-    {
-        "id": "p14",
-        "title": "Dhaka Water Treatment Plant",
-        "category": "Infrastructure / Environmental",
-        "location": "Narayanganj, BD",
-        "year": "2023",
-        "client": "DWASA",
-        "stats": [
-            {
-                "label": "Capacity",
-                "value": "500MLD"
-            },
-            {
-                "label": "Testing",
-                "value": "Concrete Durability"
-            }
-        ],
-        "image": "https://images.unsplash.com/photo-1582533089852-029ff64467ec?auto=format&fit=crop&q=80&w=800",
-        "description": "Design verification and supervision for high-capacity water retention and treatment tanks."
-    },
-    {
-        "id": "p15",
-        "title": "Science & Tech Innovation Hub",
-        "category": "Institutional / Education",
-        "location": "Kaliakair, BD",
-        "year": "2025",
-        "client": "ICT Division",
-        "stats": [
-            {
-                "label": "Design",
-                "value": "Parametric"
-            },
-            {
-                "label": "Rating",
-                "value": "LEED Platinum"
+                "label": "Scope",
+                "value": "Architecture & MEP"
             }
         ],
         "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800",
-        "description": "A net-zero carbon campus featuring adaptive reuse of materials and intelligent building management systems."
+        "description": "Detail architecture, structural & MEP design for a store-cum-office building at Kaliakair 400/230/132 kV Grid Substation, including survey, 3D drawings, cost estimation, tender documents, and DPP submission."
+    },
+    {
+        "id": "p9",
+        "title": "Central Mosque at SUST",
+        "category": "Institutional / Religious",
+        "location": "SUST, Sylhet",
+        "year": "2022-2025",
+        "client": "Shahjalal University of Science & Technology",
+        "stats": [
+            {
+                "label": "Scope",
+                "value": "Full Design & Tender"
+            },
+            {
+                "label": "Engineering",
+                "value": "Structural & MEP"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800",
+        "description": "Architectural drawings, structural design, plumbing & electro-mechanical design, 3D drawing, cost estimation, and tender document evaluation for the central mosque at SUST."
+    },
+    {
+        "id": "p10",
+        "title": "10-Storied Teacher's Quarter",
+        "category": "Institutional / Residential",
+        "location": "SUST, Sylhet",
+        "year": "2022-2025",
+        "client": "Shahjalal University of Science & Technology",
+        "stats": [
+            {
+                "label": "Stories",
+                "value": "10-Storied"
+            },
+            {
+                "label": "Scope",
+                "value": "Full Design Package"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800",
+        "description": "Complete architectural, structural, plumbing, and MEP design including 3D drawings, cost estimation, and tender documents for a 10-storied teacher's quarter."
+    },
+    {
+        "id": "p11",
+        "title": "4 Nos. 10-Storied Officers' Quarter",
+        "category": "Institutional / Residential",
+        "location": "SUST, Sylhet",
+        "year": "2022-2025",
+        "client": "Shahjalal University of Science & Technology",
+        "stats": [
+            {
+                "label": "Buildings",
+                "value": "4 Blocks"
+            },
+            {
+                "label": "Stories",
+                "value": "10-Storied Each"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1519494140681-1255ec483582?auto=format&fit=crop&q=80&w=800",
+        "description": "Architecture, structural design, plumbing, electro/mechanical design, 3D drawing, cost estimation, and tender evaluation for four 10-storied officers' quarter buildings at SUST."
+    },
+    {
+        "id": "p12",
+        "title": "Muktijoddha Chattor, Sylhet",
+        "category": "Cultural / Monument",
+        "location": "Kadomtoli, Sylhet",
+        "year": "2022-2025",
+        "client": "Sylhet City Corporation",
+        "stats": [
+            {
+                "label": "Scope",
+                "value": "Design & Tender"
+            },
+            {
+                "label": "Type",
+                "value": "Liberation Monument"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
+        "description": "Architectural drawings, structural design, electro/mechanical design & drawing, 3D design, cost estimation, and tender document evaluation for Muktijoddha Chattor memorial."
+    },
+    {
+        "id": "p13",
+        "title": "100MWac Solar Power Plant",
+        "category": "Power & Energy",
+        "location": "Multiple Sites, Bangladesh",
+        "year": "2023",
+        "client": "Cassiopea Fashion Ltd.",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "100MWac"
+            },
+            {
+                "label": "Survey",
+                "value": "Drone & Route"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+        "description": "Feasibility study and preliminary route survey for 132 kV transmission line, drone survey, sub-soil investigation, mouza map digitization, and prefeasibility report for a proposed 100 MWac solar power plant."
+    },
+    {
+        "id": "p14",
+        "title": "Dhamrai 50MW Solar Power Plant",
+        "category": "Power & Energy",
+        "location": "Dhamrai, Dhaka",
+        "year": "2020",
+        "client": "ib-Vogt GmbH, Germany",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "50MW"
+            },
+            {
+                "label": "Client",
+                "value": "International (Germany)"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1545147981-197a31acd5ee?auto=format&fit=crop&q=80&w=800",
+        "description": "Feasibility study and site assessment including topographic survey, geological investigation, drone survey, boundary demarcation, mouza map digitization, and initial environmental and social impact assessment for ib-Vogt GmbH, Germany."
+    },
+    {
+        "id": "p15",
+        "title": "Sonagazi 50MW Solar Power Plant",
+        "category": "Power & Energy",
+        "location": "Sonagazi, Feni",
+        "year": "2020",
+        "client": "ib-Vogt GmbH, Germany",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "50MW"
+            },
+            {
+                "label": "ESIA",
+                "value": "Environmental & Social"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1582533089852-029ff64467ec?auto=format&fit=crop&q=80&w=800",
+        "description": "Site assessment, topographic survey, geological investigation, drone survey, boundary demarcation, and initial environmental and social impact assessment for a 50MW solar power plant."
+    },
+    {
+        "id": "p16",
+        "title": "307MW Coal-Fired Power Plant IEE",
+        "category": "Power & Energy",
+        "location": "Taltali, Barguna",
+        "year": "2020",
+        "client": "Barisal Electric Power Company Ltd. (BEPCL)",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "307MW"
+            },
+            {
+                "label": "Report",
+                "value": "IEE & ECC"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+        "description": "Preparation of Initial Environmental Examination (IEE) for transmission line, including environmental baseline data, stakeholder consultation, impact assessment, mitigation measures, and ECC submission to DoE."
+    },
+    {
+        "id": "p17",
+        "title": "Marine Drive Road Widening EIA",
+        "category": "Transportation / Environmental",
+        "location": "Cox's Bazar",
+        "year": "2019",
+        "client": "16 Engineering Construction Battalion, Bangladesh Army",
+        "stats": [
+            {
+                "label": "Length",
+                "value": "23 km + 6 km"
+            },
+            {
+                "label": "Study",
+                "value": "Full EIA"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=800",
+        "description": "Transportation demand forecast modeling and comprehensive EIA study for the Cox's Bazar–Teknaf Marine Drive road widening (23 km) and realignment (6 km) project, covering primary/secondary baseline data, public consultation, and environmental management plan."
+    },
+    {
+        "id": "p18",
+        "title": "Kalshi Flyover Feasibility Study",
+        "category": "Transportation / Infrastructure",
+        "location": "Mirpur, Dhaka",
+        "year": "2019",
+        "client": "17 Engineering Construction Battalion, Bangladesh Army",
+        "stats": [
+            {
+                "label": "Flyover",
+                "value": "2.815 km"
+            },
+            {
+                "label": "Piers",
+                "value": "77 Columns"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800",
+        "description": "Traffic modeling and feasibility study for the proposed Kalshi Flyover from ECB Chattar to Mirpur DOHS Gate-1, spanning 3.70 km road section with 2.815 km flyover, 77 pier columns, 260 PC girders, and box girder spans."
+    },
+    {
+        "id": "p19",
+        "title": "Dormitory cum Church Building",
+        "category": "Institutional / Religious",
+        "location": "Rajandrapur, Gazipur",
+        "year": "2022-2025",
+        "client": "Bangladesh Baptist Church Fellowship",
+        "stats": [
+            {
+                "label": "Stories",
+                "value": "2-Storied"
+            },
+            {
+                "label": "Scope",
+                "value": "Full Design"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800",
+        "description": "Architectural drawings, structural design, plumbing, electro/mechanical design, 3D drawing, and cost estimation for a two-storied dormitory cum church building at BBCF Prayer Garden."
+    },
+    {
+        "id": "p20",
+        "title": "Nazrul Islam University Shaheed Minar",
+        "category": "Cultural / Monument",
+        "location": "Mymensingh",
+        "year": "2022-2024",
+        "client": "Jatiyo Kobi Kazi Nazrul Islam University",
+        "stats": [
+            {
+                "label": "Type",
+                "value": "Shaheed Minar"
+            },
+            {
+                "label": "Scope",
+                "value": "Design & Estimation"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
+        "description": "Architectural drawings, structural design, electro/mechanical design, 3D drawing, and cost estimation for the Shaheed Minar at Jatiyo Kobi Kazi Nazrul Islam University."
+    },
+    {
+        "id": "p21",
+        "title": "200MWac Solar – Bheramara",
+        "category": "Power & Energy",
+        "location": "Bheramara, Kushtia",
+        "year": "2023",
+        "client": "The Orbit Renewable Energy Ltd.",
+        "stats": [
+            {
+                "label": "Capacity",
+                "value": "200MWac"
+            },
+            {
+                "label": "Survey",
+                "value": "Site & Transmission"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+        "description": "Project site assessment and transmission line route survey including topographic survey, geological assessment, drone survey, boundary demarcation, and prefeasibility report for a 200MWac solar power plant in Bheramara Upazila."
     }
 ]

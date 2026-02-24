@@ -65,7 +65,7 @@ export default function ContactPage() {
                                 <div>
                                     <h4 className="font-bold text-lg text-white mb-1">Corporate Headquarters</h4>
                                     <p className="text-muted-foreground font-light leading-relaxed">
-                                        Level 12, Crystal Palace, Road 140, Gulshan 1<br />Dhaka-1212, Bangladesh
+                                        31/1, 1st Floor, East Rajabazar, Amtala, Farmgate<br />Dhaka-1215, Bangladesh
                                     </p>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-lg text-white mb-1">Technical Inquiries</h4>
-                                    <p className="text-muted-foreground font-light">projects@nris.com.bd</p>
+                                    <p className="text-muted-foreground font-light">nris.bd71@gmail.com</p>
                                 </div>
                             </div>
 
@@ -86,7 +86,8 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-lg text-white mb-1">Direct Consultation</h4>
-                                    <p className="text-muted-foreground font-light">+880 1711 556 677</p>
+                                    <p className="text-muted-foreground font-light">+880 1913 965 059</p>
+                                    <p className="text-muted-foreground font-light text-sm mt-1">+880 1625 333 883</p>
                                 </div>
                             </div>
                         </div>
@@ -97,9 +98,9 @@ export default function ContactPage() {
                                 <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center text-blue-500 mb-6 animate-pulse">
                                     <FiMapPin size={32} />
                                 </div>
-                                <h4 className="text-white text-xl font-bold mb-2">Gulshan 1 Hub</h4>
+                                <h4 className="text-white text-xl font-bold mb-2">Farmgate HQ</h4>
                                 <p className="text-muted-foreground text-sm font-light max-w-[250px] mb-8">
-                                    Our centralized engineering war-room in the heart of Dhaka.
+                                    Our 2,500 sq ft corporate office in the heart of Dhaka.
                                 </p>
                                 <button className="px-8 py-3 bg-blue-600 text-white rounded-full text-xs font-mono uppercase tracking-widest hover:bg-blue-500 transition-all shadow-xl shadow-blue-500/20">
                                     Get Directions

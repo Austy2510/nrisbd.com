@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     default: 'NR Intellectual Solution | Advanced Engineering Consultancy in Bangladesh',
     template: '%s | NR Intellectual Solution'
   },
-  description: 'NR Intellectual Solution (NRIS) is Bangladesh\'s leading AEC consultancy specializing in Digital Twins, Structural Audits, BIM, and Sustainable Infrastructure Development in Dhaka.',
+  description: 'NR Intellectual Solution (NRIS) is an autonomous multi-disciplinary consulting firm in Dhaka, Bangladesh. Established in 2018, specializing in Environmental Assessment, Feasibility Studies, Structural Design, Construction Supervision, and Renewable Energy across Power, Transportation, and Urban Infrastructure sectors.',
   keywords: ['NR Intellectual Solution', 'NRIS', 'Structural Engineering Bangladesh', 'Digital Twin Dhaka', 'BIM Consultancy Bangladesh', 'Structural Audit Savar', 'Civil Engineering Experts', 'Retrofitting Bangladesh', 'Architecture Dhaka', 'engineering consultancy Dhaka', 'structural audit Bangladesh', 'construction consultancy BD'],
   authors: [{ name: 'NR Intellectual Solution' }],
   creator: 'NR Intellectual Solution',
@@ -75,26 +75,26 @@ export default function RootLayout({
               "url": "https://nris.com.bd",
               "logo": "https://nris.com.bd/assets/brand/logo.jpeg",
               "image": "https://nris.com.bd/assets/brand/logo.jpeg",
-              "telephone": "+880-1711-556677",
-              "email": "projects@nrisbd.com",
+              "telephone": "+8801913965059",
+              "email": "nris.bd71@gmail.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Level 12, Crystal Palace, Road 140, Gulshan 1",
+                "streetAddress": "31/1, 1st Floor, East Rajabazar, Amtala, Farmgate",
                 "addressLocality": "Dhaka",
-                "postalCode": "1212",
+                "postalCode": "1215",
                 "addressCountry": "BD"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 23.7808,
-                "longitude": 90.4178
+                "latitude": 23.7535,
+                "longitude": 90.3868
               },
               "areaServed": [
                 { "@type": "Country", "name": "Bangladesh" }
               ],
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+880-1711-556677",
+                "telephone": "+8801913965059",
                 "contactType": "customer service",
                 "areaServed": "BD",
                 "availableLanguage": ["en", "bn"]
@@ -104,9 +104,10 @@ export default function RootLayout({
                 "https://twitter.com/nrisbd",
                 "https://instagram.com/nrisbd"
               ],
-              "description": "Bangladesh's leading AEC consultancy specializing in Structural Audits, BIM, Digital Twins, and Sustainable Infrastructure Development.",
+              "description": "Autonomous multi-disciplinary consulting firm providing sustainable infrastructure solutions from inception to completion. Specializing in Environmental Assessment, Feasibility Studies, Structural Design, and Construction Supervision across Power & Energy, Transportation, Water Resources, and Urban Infrastructure sectors.",
+              "foundingDate": "2018",
               "priceRange": "$$",
-              "knowsAbout": ["Structural Engineering", "BIM", "Digital Twins", "Environmental Impact Assessment", "Retrofitting", "Non-Destructive Testing"]
+              "knowsAbout": ["Environmental Impact Assessment", "Feasibility Studies", "Structural Design", "Construction Supervision", "Topographic Survey", "GIS Mapping", "Resettlement Action Plan", "Power & Energy", "Transportation", "Water Resources", "Urban Infrastructure", "BIM", "Solar Power"]
             })
           }}
         />

@@ -32,7 +32,7 @@ export default function AboutPage() {
                             The Engineering <br /> <span className="text-blue-500">Core.</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl font-light leading-relaxed">
-                            Established in 2022, NR Intellectual Solution is a collective of highly qualified experts providing sustainable infrastructure development solutions for the digital age.
+                            Since 2018, NR Intellectual Solution is an autonomous, multi-disciplinary consulting firm providing appropriate, adequate and sustainable solutions for infrastructure development through innovative ideas, capacity building, and consulting services from inception to project completion.
                         </p>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ export default function AboutPage() {
                 <div className="container mx-auto">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                         <div className="text-center space-y-2">
-                            <div className="text-4xl md:text-6xl font-black font-heading text-blue-500">15+</div>
+                            <div className="text-4xl md:text-6xl font-black font-heading text-blue-500">21+</div>
                             <div className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-mono">Core Projects</div>
                         </div>
                         <div className="text-center space-y-2">

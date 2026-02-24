@@ -5,9 +5,9 @@
         "role": "Chief Engineer",
         "experience": "50+ Years",
         "credentials": [
-            "Leading Engineering Authority",
-            "50 Years of Experience",
-            "Infrastructure Visionary"
+            "Ph.D. Coastal Engineering, Jadavpur University",
+            "Post-Grad Harbour Engineering, Germany",
+            "50+ Years of Engineering Leadership"
         ],
         "image": "https://images.unsplash.com/photo-1544168190-79c17527004f?auto=format&fit=crop&q=80&w=400&h=400"
     },
@@ -16,8 +16,9 @@
         "name": "Dr. Afzal Ahmed",
         "role": "Environmental Expert",
         "credentials": [
-            "Ph.D., Tokyo University",
-            "Environmental Impact Specialist"
+            "Ph.D. Civil Engineering, University of Tokyo, Japan",
+            "M.Sc. Civil & Environmental Eng., Tokyo",
+            "B.Sc. Civil Engineering, BUET"
         ],
         "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=400"
     },
@@ -26,8 +27,9 @@
         "name": "Dr. Nasir Uddin Khan",
         "role": "Environmental Specialist",
         "credentials": [
-            "21 Years of Experience",
-            "Resource Management Expert"
+            "Ph.D. Environmental Management & Climate Change, USA",
+            "M.Sc. Civil Engineering, DUET",
+            "21+ Years of Experience"
         ],
         "image": "https://images.unsplash.com/photo-1556157382-97dee2dcbcd4?auto=format&fit=crop&q=80&w=400&h=400"
     },
@@ -36,9 +38,51 @@
         "name": "Aminur Rahman",
         "role": "Solar Power Plant Expert",
         "credentials": [
-            "Renewable Energy Specialist",
-            "Prefeasibility & Solar Design"
+            "B.Sc. Electrical Engineering, Rajshahi University",
+            "Renewable Energy & Solar Design Specialist"
         ],
         "image": "https://images.unsplash.com/photo-1628891438288-46da9571e584?auto=format&fit=crop&q=80&w=400&h=400"
+    },
+    {
+        "id": "t5",
+        "name": "Abu Hena Md. Mahbubur Rahman",
+        "role": "Structural Expert",
+        "credentials": [
+            "B.Sc. Engineering (Civil), BUET 1993",
+            "Structural Design & Analysis Authority"
+        ],
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400"
+    },
+    {
+        "id": "t6",
+        "name": "Sheikh Nazrul Islam",
+        "role": "Procurement Expert",
+        "credentials": [
+            "MIT, Charles Sturt University, Australia",
+            "B.Sc. EEE, BUET",
+            "Procurement & Tender Management"
+        ],
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=400"
+    },
+    {
+        "id": "t7",
+        "name": "M. Osman Goni (Shawkat)",
+        "role": "ESIA Expert",
+        "credentials": [
+            "MS Environmental Science, North South University",
+            "MSS Sociology, University of Dhaka",
+            "Environmental & Social Impact Assessment"
+        ],
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400&h=400"
+    },
+    {
+        "id": "t8",
+        "name": "Md. Jahangir Alam",
+        "role": "Material Expert",
+        "credentials": [
+            "B.Sc. Civil Engineering, KUET",
+            "Material Testing & Quality Assurance"
+        ],
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400&h=400"
     }
 ]

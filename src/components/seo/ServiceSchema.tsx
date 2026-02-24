@@ -25,12 +25,12 @@ export function ServiceSchema({
             "@type": "ProfessionalService",
             "name": provider,
             "url": "https://nris.com.bd",
-            "telephone": "+880-1711-556677",
+            "telephone": "+8801913965059",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Level 12, Crystal Palace, Road 140, Gulshan 1",
+                "streetAddress": "31/1, 1st Floor, East Rajabazar, Amtala, Farmgate",
                 "addressLocality": "Dhaka",
-                "postalCode": "1212",
+                "postalCode": "1215",
                 "addressCountry": "BD"
             }
         },

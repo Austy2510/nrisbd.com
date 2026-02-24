@@ -8,7 +8,7 @@ export function Footer() {
                 <div className="space-y-4">
                     <h3 className="text-xl font-bold font-heading">NR Intellectual Solution</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-                        Redefining the digital frontier in AEC. We engineer immersive experiences that bridge the gap between vision and reality.
+                        Autonomous multi-disciplinary consulting firm providing sustainable infrastructure solutions from inception to project completion since 2018.
                     </p>
                 </div>
 
@@ -27,10 +27,11 @@ export function Footer() {
                 <div>
                     <h4 className="font-bold mb-6 font-heading uppercase tracking-widest text-sm">Services</h4>
                     <ul className="space-y-3 text-sm text-muted-foreground">
-                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Structural Audits</Link></li>
-                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">BIM Consultation</Link></li>
-                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Digital Twins</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Environmental Assessment</Link></li>
                         <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Feasibility Studies</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Structural Design</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Construction Supervision</Link></li>
+                        <li><Link href="/services/structural-audit" className="hover:text-white transition-colors">Topographic Survey</Link></li>
                     </ul>
                 </div>
 
@@ -53,8 +54,9 @@ export function Footer() {
                         <a href="https://instagram.com/nrisbd" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors"><FaInstagram /></a>
                     </div>
                     <div className="mt-6 text-sm text-muted-foreground">
-                        <p>Corporate Office: Dhaka, BD</p>
-                        <p>contact@nris.com.bd</p>
+                        <p>Farmgate, Dhaka-1215, BD</p>
+                        <p>nris.bd71@gmail.com</p>
+                        <p>+880 1913 965 059</p>
                     </div>
                 </div>
             </div>
