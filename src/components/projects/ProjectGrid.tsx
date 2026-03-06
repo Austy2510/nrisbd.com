@@ -78,6 +78,9 @@ export function ProjectGrid() {
                                     hoveredId === project.id ? "opacity-100" : ""
                                 )} />
 
+                                {/* Dark gradient overlay for title readability */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none z-[15]" />
+
                                 {/* Content Overlay */}
                                 <div className="absolute inset-0 p-8 flex flex-col justify-between z-20">
                                     <div className="flex justify-between items-start">
@@ -90,7 +93,7 @@ export function ProjectGrid() {
                                     </div>
 
                                     <div>
-                                        <h3 className="text-2xl md:text-3xl font-bold font-heading mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 text-white">
+                                        <h3 className="text-2xl md:text-3xl font-bold font-heading mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                             {project.title}
                                         </h3>
                                         <div className="flex items-center text-sm text-white/60 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
