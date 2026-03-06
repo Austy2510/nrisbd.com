@@ -16,7 +16,7 @@
                 "value": "River Morphological"
             }
         ],
-        "image": "/assets/projects/office-complex-1.jpeg",
+        "image": "/assets/projects/museum-panorama.jpeg",
         "description": "Feasibility study and detail design for the Panorama Liberation War Museum near Padma Bridge, including sub-soil investigation, river morphological study, environmental and social safeguard management plan, and tender document preparation."
     },
     {
@@ -36,7 +36,7 @@
                 "value": "Structural & MEP Design"
             }
         ],
-        "image": "/assets/projects/office-complex-2.jpeg",
+        "image": "/assets/projects/cricket-stadium.jpeg",
         "description": "Comprehensive feasibility study, architectural design, master plan, structural design, MEP design, hydro-morphological study, river bank protection, BOQ & cost estimation, and DPP preparation for an international cricket stadium complex."
     },
     {
@@ -56,7 +56,7 @@
                 "value": "Detail & Sub-soil"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/water-base-park.jpeg",
         "description": "Detail survey, sub-soil investigation with geological assessment, hydro-morphological study, and Environmental & Social Impact Assessment for a modern recreational water-based park in Ghatarchar area, Keraniganj."
     },
     {
@@ -76,7 +76,7 @@
                 "value": "Prefeasibility"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-200mw-kalapara.jpeg",
         "description": "Prefeasibility study including site buildability assessment, climate investigation, potential site development works, accessibility assessment, survey and data analysis for a large-scale solar power plant at Dhulaswar Mouza."
     },
     {
@@ -96,7 +96,7 @@
                 "value": "10-Storied"
             }
         ],
-        "image": "/assets/projects/office-complex-3.jpeg",
+        "image": "/assets/projects/sust-hostel.jpeg",
         "description": "Architecture, structural design, plumbing, electro/mechanical design, 3D drawing, cost estimation, and tender document preparation for a 10-storied male student hostel at SUST."
     },
     {
@@ -116,7 +116,7 @@
                 "value": "IEE Preparation"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-50mw-sonagazi.jpeg",
         "description": "Preparation of Initial Environmental Examination (IEE) for 400kV transmission line from New Madunaghat Substation to Maheshkhali via Banshkhali, including baseline data, stakeholder consultation, national policy compliance, and ECC submission."
     },
     {
@@ -136,7 +136,7 @@
                 "value": "5-Storied"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/academic-building.png",
         "description": "Topographic survey, sub-soil investigation, architectural drawings, structural design, plumbing & MEP design, 3D drawing, cost estimation, and tender document preparation for a 5-storied academic building."
     },
     {
@@ -156,7 +156,7 @@
                 "value": "Architecture & MEP"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/pgcb-substation.jpeg",
         "description": "Detail architecture, structural & MEP design for a store-cum-office building at Kaliakair 400/230/132 kV Grid Substation, including survey, 3D drawings, cost estimation, tender documents, and DPP submission."
     },
     {
@@ -176,7 +176,7 @@
                 "value": "Structural & MEP"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/sust-mosque.jpeg",
         "description": "Architectural drawings, structural design, plumbing & electro-mechanical design, 3D drawing, cost estimation, and tender document evaluation for the central mosque at SUST."
     },
     {
@@ -196,7 +196,7 @@
                 "value": "Full Design Package"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/teachers-quarter.jpeg",
         "description": "Complete architectural, structural, plumbing, and MEP design including 3D drawings, cost estimation, and tender documents for a 10-storied teacher's quarter."
     },
     {
@@ -216,7 +216,7 @@
                 "value": "10-Storied Each"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1519494140681-1255ec483582?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/officers-quarter.jpeg",
         "description": "Architecture, structural design, plumbing, electro/mechanical design, 3D drawing, cost estimation, and tender evaluation for four 10-storied officers' quarter buildings at SUST."
     },
     {
@@ -236,7 +236,7 @@
                 "value": "Liberation Monument"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/muktijoddha-chattor.jpeg",
         "description": "Architectural drawings, structural design, electro/mechanical design & drawing, 3D design, cost estimation, and tender document evaluation for Muktijoddha Chattor memorial."
     },
     {
@@ -256,7 +256,7 @@
                 "value": "Drone & Route"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-100mw.jpeg",
         "description": "Feasibility study and preliminary route survey for 132 kV transmission line, drone survey, sub-soil investigation, mouza map digitization, and prefeasibility report for a proposed 100 MWac solar power plant."
     },
     {
@@ -276,7 +276,7 @@
                 "value": "International (Germany)"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1545147981-197a31acd5ee?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-50mw-dhamrai.jpeg",
         "description": "Feasibility study and site assessment including topographic survey, geological investigation, drone survey, boundary demarcation, mouza map digitization, and initial environmental and social impact assessment for ib-Vogt GmbH, Germany."
     },
     {
@@ -296,7 +296,7 @@
                 "value": "Environmental & Social"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1582533089852-029ff64467ec?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-50mw-sonagazi.jpeg",
         "description": "Site assessment, topographic survey, geological investigation, drone survey, boundary demarcation, and initial environmental and social impact assessment for a 50MW solar power plant."
     },
     {
@@ -316,7 +316,7 @@
                 "value": "IEE & ECC"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-50mw-sonagazi.jpeg",
         "description": "Preparation of Initial Environmental Examination (IEE) for transmission line, including environmental baseline data, stakeholder consultation, impact assessment, mitigation measures, and ECC submission to DoE."
     },
     {
@@ -336,7 +336,7 @@
                 "value": "Full EIA"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/marine-drive.jpeg",
         "description": "Transportation demand forecast modeling and comprehensive EIA study for the Cox's Bazar–Teknaf Marine Drive road widening (23 km) and realignment (6 km) project, covering primary/secondary baseline data, public consultation, and environmental management plan."
     },
     {
@@ -356,7 +356,7 @@
                 "value": "77 Columns"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/kalshi-flyover.jpeg",
         "description": "Traffic modeling and feasibility study for the proposed Kalshi Flyover from ECB Chattar to Mirpur DOHS Gate-1, spanning 3.70 km road section with 2.815 km flyover, 77 pier columns, 260 PC girders, and box girder spans."
     },
     {
@@ -376,7 +376,7 @@
                 "value": "Full Design"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/dormitory-church.jpeg",
         "description": "Architectural drawings, structural design, plumbing, electro/mechanical design, 3D drawing, and cost estimation for a two-storied dormitory cum church building at BBCF Prayer Garden."
     },
     {
@@ -396,7 +396,7 @@
                 "value": "Design & Estimation"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-feaffa44d51b?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/shaheed-minar-nazrul.jpeg",
         "description": "Architectural drawings, structural design, electro/mechanical design, 3D drawing, and cost estimation for the Shaheed Minar at Jatiyo Kobi Kazi Nazrul Islam University."
     },
     {
@@ -416,7 +416,7 @@
                 "value": "Site & Transmission"
             }
         ],
-        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
+        "image": "/assets/projects/solar-200mw-bheramara.jpeg",
         "description": "Project site assessment and transmission line route survey including topographic survey, geological assessment, drone survey, boundary demarcation, and prefeasibility report for a 200MWac solar power plant in Bheramara Upazila."
     }
 ]
