@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
-export function GlobalLoader() {
+function GlobalLoaderInner() {
     const pathname = usePathname();
     const searchParams = useSearchParams();
 
@@ -95,5 +95,13 @@ export function GlobalLoader() {
                 </motion.div>
             )}
         </AnimatePresence>
+    );
+}
+
+export function GlobalLoader() {
+    return (
+        <Suspense fallback={null}>
+            <GlobalLoaderInner />
+        </Suspense>
     );
 }
