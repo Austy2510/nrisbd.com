@@ -54,7 +54,7 @@ export function Footer() {
                         <a href="https://instagram.com/nrisbd" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors"><FaInstagram /></a>
                     </div>
                     <div className="mt-6 text-sm text-muted-foreground">
-                        <p>Farmgate, Dhaka-1215, BD</p>
+                        <p>Mohammadpur, Dhaka-1207, BD</p>
                         <p>nris.bd71@gmail.com</p>
                         <p>+880 1913 965 059</p>
                     </div>

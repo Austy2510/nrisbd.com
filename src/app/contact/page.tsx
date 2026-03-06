@@ -65,7 +65,7 @@ export default function ContactPage() {
                                 <div>
                                     <h4 className="font-bold text-lg text-white mb-1">Corporate Headquarters</h4>
                                     <p className="text-muted-foreground font-light leading-relaxed">
-                                        31/1, 1st Floor, East Rajabazar, Amtala, Farmgate<br />Dhaka-1215, Bangladesh
+                                        House-14/7, Block-B, Babor Road, Mohammadpur<br />Dhaka-1207, Bangladesh
                                     </p>
                                 </div>
                             </div>
@@ -98,9 +98,9 @@ export default function ContactPage() {
                                 <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center text-blue-500 mb-6 animate-pulse">
                                     <FiMapPin size={32} />
                                 </div>
-                                <h4 className="text-white text-xl font-bold mb-2">Farmgate HQ</h4>
+                                <h4 className="text-white text-xl font-bold mb-2">Mohammadpur HQ</h4>
                                 <p className="text-muted-foreground text-sm font-light max-w-[250px] mb-8">
-                                    Our 2,500 sq ft corporate office in the heart of Dhaka.
+                                    Our corporate office in the heart of Dhaka.
                                 </p>
                                 <button className="px-8 py-3 bg-blue-600 text-white rounded-full text-xs font-mono uppercase tracking-widest hover:bg-blue-500 transition-all shadow-xl shadow-blue-500/20">
                                     Get Directions

@@ -28,9 +28,9 @@ export function ServiceSchema({
             "telephone": "+8801913965059",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "31/1, 1st Floor, East Rajabazar, Amtala, Farmgate",
+                "streetAddress": "House-14/7, Block-B, Babor Road, Mohammadpur",
                 "addressLocality": "Dhaka",
-                "postalCode": "1215",
+                "postalCode": "1207",
                 "addressCountry": "BD"
             }
         },

@@ -82,15 +82,15 @@ export default function RootLayout({
               "email": "nris.bd71@gmail.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "31/1, 1st Floor, East Rajabazar, Amtala, Farmgate",
+                "streetAddress": "House-14/7, Block-B, Babor Road, Mohammadpur",
                 "addressLocality": "Dhaka",
-                "postalCode": "1215",
+                "postalCode": "1207",
                 "addressCountry": "BD"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 23.7535,
-                "longitude": 90.3868
+                "latitude": 23.7663,
+                "longitude": 90.3633
               },
               "areaServed": [
                 { "@type": "Country", "name": "Bangladesh" }
