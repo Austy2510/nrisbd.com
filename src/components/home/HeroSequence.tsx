@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState, Suspense } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
-// Dynamic import for R3F component to prevent SSR issues
-const CityScene = dynamic(() => import("./CityScene"), { ssr: false });
+// Dynamic import for the image sequence component to prevent SSR issues
+const ImageSequenceScene = dynamic(() => import("./ImageSequenceScene"), { ssr: false });
 
 function Typewriter({ text }: { text: string }) {
     const [displayedText, setDisplayedText] = useState("");
@@ -47,10 +47,8 @@ export function HeroSequence() {
     return (
         <div ref={containerRef} className="h-[400vh] relative bg-background">
             <div className="sticky top-0 h-[100dvh] w-full overflow-hidden">
-                {/* 3D City Scene Layer */}
-                <Suspense fallback={<div className="absolute inset-0 bg-black animate-pulse" />}>
-                    {isMounted && <CityScene scrollProgress={scrollYProgress} />}
-                </Suspense>
+                {/* Image Sequence Layer */}
+                {isMounted && <ImageSequenceScene scrollProgress={scrollYProgress} />}
 
                 {/* Gradient Overlays for Depth */}
                 <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-transparent to-background/80 z-10 pointer-events-none" />
