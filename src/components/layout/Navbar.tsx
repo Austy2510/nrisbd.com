@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const navLinks = [
+    { name: "Home", href: "/" },
     { name: "Projects", href: "/projects" },
     { name: "Expertise", href: "/services" },
     { name: "Studio", href: "/about" },
