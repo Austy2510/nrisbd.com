@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { useScroll, useTransform, motion } from "framer-motion";
+import { useEffect, useRef, useState, useCallback } from "react";
+import { useScroll, useTransform, motion, AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
 
 // Dynamic import for the image sequence component to prevent SSR issues
@@ -29,9 +29,29 @@ function Typewriter({ text }: { text: string }) {
 export function HeroSequence() {
     const containerRef = useRef<HTMLDivElement>(null);
     const [isMounted, setIsMounted] = useState(false);
+    const [isLoaded, setIsLoaded] = useState(false);
+    const [loadProgress, setLoadProgress] = useState(0);
 
     useEffect(() => {
         setIsMounted(true);
+    }, []);
+
+    // Lock body scroll while loading
+    useEffect(() => {
+        if (!isLoaded) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "";
+        }
+        return () => { document.body.style.overflow = ""; };
+    }, [isLoaded]);
+
+    const handleLoadProgress = useCallback((progress: number) => {
+        setLoadProgress(progress);
+        if (progress >= 1) {
+            // Small delay for visual smoothness
+            setTimeout(() => setIsLoaded(true), 400);
+        }
     }, []);
 
     // Track scroll progress of the container
@@ -48,7 +68,7 @@ export function HeroSequence() {
         <div ref={containerRef} className="h-[400vh] relative bg-background">
             <div className="sticky top-0 h-[100dvh] w-full overflow-hidden">
                 {/* Image Sequence Layer */}
-                {isMounted && <ImageSequenceScene scrollProgress={scrollYProgress} />}
+                {isMounted && <ImageSequenceScene scrollProgress={scrollYProgress} onLoadProgress={handleLoadProgress} />}
 
                 {/* Gradient Overlays for Depth */}
                 <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-transparent to-background/80 z-10 pointer-events-none" />
@@ -101,6 +121,48 @@ export function HeroSequence() {
                     <span className="text-[10px] uppercase tracking-[0.3em] font-mono">Scroll</span>
                 </motion.div>
             </div>
+
+            {/* Full-Screen Loading Overlay */}
+            <AnimatePresence>
+                {!isLoaded && (
+                    <motion.div
+                        key="loading-screen"
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.8, ease: "easeInOut" }}
+                        className="fixed inset-0 z-[9999] bg-[#010409] flex flex-col items-center justify-center"
+                    >
+                        {/* Animated Logo / Brand */}
+                        <motion.div
+                            initial={{ scale: 0.8, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            transition={{ duration: 0.6 }}
+                            className="mb-12 text-center"
+                        >
+                            <h1 className="text-3xl md:text-5xl font-black font-heading tracking-tighter text-white mb-2">
+                                NR Intellectual <span className="text-blue-500">Solution</span>
+                            </h1>
+                            <p className="text-xs font-mono text-white/30 uppercase tracking-[0.3em]">
+                                Engineering Resilience
+                            </p>
+                        </motion.div>
+
+                        {/* Progress Bar */}
+                        <div className="w-64 md:w-80 h-[2px] bg-white/10 rounded-full overflow-hidden mb-4">
+                            <motion.div
+                                className="h-full bg-gradient-to-r from-blue-600 to-blue-400 rounded-full"
+                                initial={{ width: 0 }}
+                                animate={{ width: `${Math.round(loadProgress * 100)}%` }}
+                                transition={{ duration: 0.3, ease: "easeOut" }}
+                            />
+                        </div>
+
+                        {/* Percentage */}
+                        <span className="text-xs font-mono text-blue-500/60 tabular-nums">
+                            {Math.round(loadProgress * 100)}%
+                        </span>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
     );
 }

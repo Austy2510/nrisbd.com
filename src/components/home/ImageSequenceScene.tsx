@@ -13,8 +13,10 @@ function getFrameSrc(index: number): string {
 
 export default function ImageSequenceScene({
     scrollProgress,
+    onLoadProgress,
 }: {
     scrollProgress: MotionValue<number>;
+    onLoadProgress?: (progress: number) => void;
 }) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const imagesRef = useRef<HTMLImageElement[]>([]);
@@ -32,6 +34,7 @@ export default function ImageSequenceScene({
             img.src = getFrameSrc(i);
             img.onload = () => {
                 loadedCount++;
+                onLoadProgress?.(loadedCount / TOTAL_FRAMES);
                 if (loadedCount === TOTAL_FRAMES) {
                     imagesRef.current = images;
                     setLoaded(true);
