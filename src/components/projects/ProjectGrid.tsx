@@ -39,15 +39,15 @@ export function ProjectGrid() {
                     </button>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {projects.map((project, index) => (
                         <Link key={project.id} href={`/projects/${project.id}`}>
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
-                                transition={{ delay: index * 0.1 }}
-                                className="group relative aspect-[4/5] overflow-hidden rounded-3xl glass-card h-full"
+                                transition={{ delay: index * 0.05 }}
+                                className="group relative aspect-[3/4] overflow-hidden rounded-2xl glass-card h-full"
                                 onMouseEnter={() => setHoveredId(project.id)}
                                 onMouseLeave={() => setHoveredId(null)}
                             >
@@ -82,9 +82,9 @@ export function ProjectGrid() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none z-[15]" />
 
                                 {/* Content Overlay */}
-                                <div className="absolute inset-0 p-8 flex flex-col justify-between z-20">
+                                <div className="absolute inset-0 p-5 flex flex-col justify-between z-20">
                                     <div className="flex justify-between items-start">
-                                        <span className="px-3 py-1 bg-black/50 backdrop-blur text-[10px] font-mono border border-white/10 rounded tracking-[0.2em] uppercase">
+                                        <span className="px-2 py-1 bg-black/50 backdrop-blur text-[9px] font-mono border border-white/10 rounded tracking-[0.15em] uppercase">
                                             {project.category}
                                         </span>
                                         <div className="bg-white text-black p-2 rounded-full opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
@@ -93,7 +93,7 @@ export function ProjectGrid() {
                                     </div>
 
                                     <div>
-                                        <h3 className="text-2xl md:text-3xl font-bold font-heading mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                                        <h3 className="text-lg md:text-xl font-bold font-heading mb-1 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                             {project.title}
                                         </h3>
                                         <div className="flex items-center text-sm text-white/60 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
