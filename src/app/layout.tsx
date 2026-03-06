@@ -53,6 +53,8 @@ export const metadata: Metadata = {
   }
 };
 
+import { GlobalLoader } from "@/components/layout/GlobalLoader";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -64,6 +66,7 @@ export default function RootLayout({
         className={`${inter.variable} ${spaceGrotesk.variable} antialiased bg-background text-foreground`}
       >
         <GoogleAnalytics />
+        <GlobalLoader />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
