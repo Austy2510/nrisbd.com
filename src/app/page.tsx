@@ -5,6 +5,7 @@ import { ProjectGrid } from "@/components/projects/ProjectGrid";
 import { FeasibilityCalculator } from "@/components/tools/FeasibilityCalculator";
 import { BimViewer } from "@/components/projects/BimViewer";
 import { FAQSection } from "@/components/home/FAQSection";
+import { AboutSection } from "@/components/home/AboutSection";
 import { FiHexagon, FiZap, FiDatabase } from "react-icons/fi";
 
 export default function Home() {
@@ -57,6 +58,8 @@ export default function Home() {
 
       {/* 3D Scrollytelling Hero */}
       <HeroSequence />
+
+      <AboutSection />
 
       {/* Value Proposition Section */}
       <section className="bg-background py-32 px-6 relative overflow-hidden">
